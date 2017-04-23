@@ -498,11 +498,11 @@ Partial Class Ansattside
         '
         Me.Statistikk.Controls.Add(Me.lbAntallDonorer)
         Me.Statistikk.Controls.Add(Me.Label1)
-        Me.Statistikk.Location = New System.Drawing.Point(4, 22)
-        Me.Statistikk.Margin = New System.Windows.Forms.Padding(2)
+        Me.Statistikk.Location = New System.Drawing.Point(4, 25)
+        Me.Statistikk.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Statistikk.Name = "Statistikk"
-        Me.Statistikk.Padding = New System.Windows.Forms.Padding(2)
-        Me.Statistikk.Size = New System.Drawing.Size(833, 552)
+        Me.Statistikk.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Statistikk.Size = New System.Drawing.Size(1113, 682)
         Me.Statistikk.TabIndex = 5
         Me.Statistikk.Text = " Statistikk"
         Me.Statistikk.UseVisualStyleBackColor = True
@@ -510,19 +510,19 @@ Partial Class Ansattside
         'lbAntallDonorer
         '
         Me.lbAntallDonorer.AutoSize = True
-        Me.lbAntallDonorer.Location = New System.Drawing.Point(152, 31)
+        Me.lbAntallDonorer.Location = New System.Drawing.Point(203, 38)
+        Me.lbAntallDonorer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbAntallDonorer.Name = "lbAntallDonorer"
-        Me.lbAntallDonorer.Size = New System.Drawing.Size(74, 13)
+        Me.lbAntallDonorer.Size = New System.Drawing.Size(99, 17)
         Me.lbAntallDonorer.TabIndex = 1
         Me.lbAntallDonorer.Text = "Antall Donører"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(30, 31)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(40, 38)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(127, 13)
+        Me.Label1.Size = New System.Drawing.Size(174, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Antall registrerte donører: "
         '
@@ -537,29 +537,31 @@ Partial Class Ansattside
         Me.Reservasjoner.Controls.Add(Me.ResGrid)
         Me.Reservasjoner.Controls.Add(Me.Label2)
         Me.Reservasjoner.Controls.Add(Me.Reservasjonskalender)
-        Me.Reservasjoner.Location = New System.Drawing.Point(4, 22)
-        Me.Reservasjoner.Margin = New System.Windows.Forms.Padding(2)
+        Me.Reservasjoner.Location = New System.Drawing.Point(4, 25)
+        Me.Reservasjoner.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Reservasjoner.Name = "Reservasjoner"
-        Me.Reservasjoner.Padding = New System.Windows.Forms.Padding(2)
-        Me.Reservasjoner.Size = New System.Drawing.Size(833, 552)
+        Me.Reservasjoner.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Reservasjoner.Size = New System.Drawing.Size(1113, 682)
         Me.Reservasjoner.TabIndex = 4
         Me.Reservasjoner.Text = "Reservasjoner"
         Me.Reservasjoner.UseVisualStyleBackColor = True
         '
         'btnSokPersonnummer
         '
-        Me.btnSokPersonnummer.Location = New System.Drawing.Point(166, 338)
+        Me.btnSokPersonnummer.Location = New System.Drawing.Point(221, 416)
+        Me.btnSokPersonnummer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSokPersonnummer.Name = "btnSokPersonnummer"
-        Me.btnSokPersonnummer.Size = New System.Drawing.Size(80, 26)
+        Me.btnSokPersonnummer.Size = New System.Drawing.Size(107, 32)
         Me.btnSokPersonnummer.TabIndex = 22
         Me.btnSokPersonnummer.Text = "Søk"
         Me.btnSokPersonnummer.UseVisualStyleBackColor = True
         '
         'btnLeggInnReservasjon
         '
-        Me.btnLeggInnReservasjon.Location = New System.Drawing.Point(280, 338)
+        Me.btnLeggInnReservasjon.Location = New System.Drawing.Point(373, 416)
+        Me.btnLeggInnReservasjon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnLeggInnReservasjon.Name = "btnLeggInnReservasjon"
-        Me.btnLeggInnReservasjon.Size = New System.Drawing.Size(165, 28)
+        Me.btnLeggInnReservasjon.Size = New System.Drawing.Size(220, 34)
         Me.btnLeggInnReservasjon.TabIndex = 21
         Me.btnLeggInnReservasjon.Text = "Legg inn ny reservasjon"
         Me.btnLeggInnReservasjon.UseVisualStyleBackColor = True
@@ -567,43 +569,48 @@ Partial Class Ansattside
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(324, 279)
+        Me.Label11.Location = New System.Drawing.Point(432, 343)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(115, 13)
+        Me.Label11.Size = New System.Drawing.Size(153, 17)
         Me.Label11.TabIndex = 20
         Me.Label11.Text = "Tilgjengelige tidspunkt:"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(166, 279)
+        Me.Label10.Location = New System.Drawing.Point(221, 343)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(80, 13)
+        Me.Label10.Size = New System.Drawing.Size(108, 17)
         Me.Label10.TabIndex = 19
         Me.Label10.Text = "Personnummer:"
         '
         'personnummer
         '
-        Me.personnummer.Location = New System.Drawing.Point(166, 298)
+        Me.personnummer.Location = New System.Drawing.Point(221, 367)
+        Me.personnummer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.personnummer.Name = "personnummer"
-        Me.personnummer.Size = New System.Drawing.Size(100, 20)
+        Me.personnummer.Size = New System.Drawing.Size(132, 22)
         Me.personnummer.TabIndex = 18
         '
         'resTidComboBox
         '
         Me.resTidComboBox.FormattingEnabled = True
-        Me.resTidComboBox.Location = New System.Drawing.Point(324, 298)
+        Me.resTidComboBox.Location = New System.Drawing.Point(432, 367)
+        Me.resTidComboBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.resTidComboBox.Name = "resTidComboBox"
-        Me.resTidComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.resTidComboBox.Size = New System.Drawing.Size(160, 24)
         Me.resTidComboBox.TabIndex = 17
         '
         'ResGrid
         '
         Me.ResGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.ResGrid.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Dato, Me.Tidspunkt, Me.ID, Me.resID, Me.Slett})
-        Me.ResGrid.Location = New System.Drawing.Point(324, 84)
+        Me.ResGrid.Location = New System.Drawing.Point(432, 103)
+        Me.ResGrid.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ResGrid.Name = "ResGrid"
-        Me.ResGrid.Size = New System.Drawing.Size(356, 162)
+        Me.ResGrid.Size = New System.Drawing.Size(475, 199)
         Me.ResGrid.TabIndex = 16
         '
         'Dato
@@ -643,17 +650,15 @@ Partial Class Ansattside
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(334, 54)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(445, 66)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(143, 13)
+        Me.Label2.Size = New System.Drawing.Size(191, 17)
         Me.Label2.TabIndex = 15
         Me.Label2.Text = "Reservasjoner for valgt dato:"
         '
         'Reservasjonskalender
         '
-        Me.Reservasjonskalender.Location = New System.Drawing.Point(25, 84)
-        Me.Reservasjonskalender.Margin = New System.Windows.Forms.Padding(7)
+        Me.Reservasjonskalender.Location = New System.Drawing.Point(33, 103)
         Me.Reservasjonskalender.Name = "Reservasjonskalender"
         Me.Reservasjonskalender.TabIndex = 13
         '
@@ -675,11 +680,11 @@ Partial Class Ansattside
         Me.Lager.Controls.Add(Me.cboBlodplasma)
         Me.Lager.Controls.Add(Me.cboBlodlegeme)
         Me.Lager.Controls.Add(Me.gridBlodplasma)
-        Me.Lager.Location = New System.Drawing.Point(4, 22)
-        Me.Lager.Margin = New System.Windows.Forms.Padding(2)
+        Me.Lager.Location = New System.Drawing.Point(4, 25)
+        Me.Lager.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Lager.Name = "Lager"
-        Me.Lager.Padding = New System.Windows.Forms.Padding(2)
-        Me.Lager.Size = New System.Drawing.Size(833, 552)
+        Me.Lager.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Lager.Size = New System.Drawing.Size(1113, 682)
         Me.Lager.TabIndex = 2
         Me.Lager.Text = "Lager"
         Me.Lager.UseVisualStyleBackColor = True
@@ -688,17 +693,19 @@ Partial Class Ansattside
         '
         Me.cboBlod.FormattingEnabled = True
         Me.cboBlod.Items.AddRange(New Object() {"A+", "A-", "B+", "B-", "0+", "0-", "AB+", "AB-"})
-        Me.cboBlod.Location = New System.Drawing.Point(403, 346)
+        Me.cboBlod.Location = New System.Drawing.Point(537, 426)
+        Me.cboBlod.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboBlod.Name = "cboBlod"
-        Me.cboBlod.Size = New System.Drawing.Size(121, 21)
+        Me.cboBlod.Size = New System.Drawing.Size(160, 24)
         Me.cboBlod.TabIndex = 16
         Me.cboBlod.Text = "A+"
         '
         'btnSkrivUt
         '
-        Me.btnSkrivUt.Location = New System.Drawing.Point(424, 483)
+        Me.btnSkrivUt.Location = New System.Drawing.Point(565, 594)
+        Me.btnSkrivUt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSkrivUt.Name = "btnSkrivUt"
-        Me.btnSkrivUt.Size = New System.Drawing.Size(116, 23)
+        Me.btnSkrivUt.Size = New System.Drawing.Size(155, 28)
         Me.btnSkrivUt.TabIndex = 15
         Me.btnSkrivUt.Text = "Skriv ut blodprodukt"
         Me.btnSkrivUt.UseVisualStyleBackColor = True
@@ -707,9 +714,10 @@ Partial Class Ansattside
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(239, 13)
+        Me.Label9.Location = New System.Drawing.Point(319, 16)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(350, 29)
+        Me.Label9.Size = New System.Drawing.Size(426, 36)
         Me.Label9.TabIndex = 14
         Me.Label9.Text = "Alle tilgjengelige blodprodukter"
         '
@@ -718,9 +726,10 @@ Partial Class Ansattside
         Me.gridBlodplater.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
         Me.gridBlodplater.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.gridBlodplater.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4})
-        Me.gridBlodplater.Location = New System.Drawing.Point(559, 58)
+        Me.gridBlodplater.Location = New System.Drawing.Point(745, 71)
+        Me.gridBlodplater.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.gridBlodplater.Name = "gridBlodplater"
-        Me.gridBlodplater.Size = New System.Drawing.Size(244, 237)
+        Me.gridBlodplater.Size = New System.Drawing.Size(325, 292)
         Me.gridBlodplater.TabIndex = 13
         '
         'DataGridViewTextBoxColumn3
@@ -740,9 +749,10 @@ Partial Class Ansattside
         Me.gridBlodceller.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
         Me.gridBlodceller.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.gridBlodceller.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2})
-        Me.gridBlodceller.Location = New System.Drawing.Point(294, 58)
+        Me.gridBlodceller.Location = New System.Drawing.Point(392, 71)
+        Me.gridBlodceller.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.gridBlodceller.Name = "gridBlodceller"
-        Me.gridBlodceller.Size = New System.Drawing.Size(244, 237)
+        Me.gridBlodceller.Size = New System.Drawing.Size(325, 292)
         Me.gridBlodceller.TabIndex = 12
         '
         'DataGridViewTextBoxColumn1
@@ -759,9 +769,10 @@ Partial Class Ansattside
         '
         'btnInsert
         '
-        Me.btnInsert.Location = New System.Drawing.Point(281, 483)
+        Me.btnInsert.Location = New System.Drawing.Point(375, 594)
+        Me.btnInsert.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnInsert.Name = "btnInsert"
-        Me.btnInsert.Size = New System.Drawing.Size(116, 23)
+        Me.btnInsert.Size = New System.Drawing.Size(155, 28)
         Me.btnInsert.TabIndex = 11
         Me.btnInsert.Text = "Sett inn blodprodukt"
         Me.btnInsert.UseVisualStyleBackColor = True
@@ -769,52 +780,58 @@ Partial Class Ansattside
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(320, 323)
+        Me.Label7.Location = New System.Drawing.Point(427, 398)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(77, 13)
+        Me.Label7.Size = New System.Drawing.Size(104, 17)
         Me.Label7.TabIndex = 10
         Me.Label7.Text = "Personnummer"
         '
         'txtLagerPersonnummer
         '
-        Me.txtLagerPersonnummer.Location = New System.Drawing.Point(403, 320)
+        Me.txtLagerPersonnummer.Location = New System.Drawing.Point(537, 394)
+        Me.txtLagerPersonnummer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtLagerPersonnummer.Name = "txtLagerPersonnummer"
-        Me.txtLagerPersonnummer.Size = New System.Drawing.Size(100, 20)
+        Me.txtLagerPersonnummer.Size = New System.Drawing.Size(132, 22)
         Me.txtLagerPersonnummer.TabIndex = 9
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(332, 437)
+        Me.Label6.Location = New System.Drawing.Point(443, 538)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(54, 13)
+        Me.Label6.Size = New System.Drawing.Size(72, 17)
         Me.Label6.TabIndex = 8
         Me.Label6.Text = "Blodplater"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(325, 408)
+        Me.Label5.Location = New System.Drawing.Point(433, 502)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 13)
+        Me.Label5.Size = New System.Drawing.Size(81, 17)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Blodplasma"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(293, 376)
+        Me.Label4.Location = New System.Drawing.Point(391, 463)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(93, 13)
+        Me.Label4.Size = New System.Drawing.Size(124, 17)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Røde blodlegemer"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(338, 350)
+        Me.Label3.Location = New System.Drawing.Point(451, 431)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(48, 13)
+        Me.Label3.Size = New System.Drawing.Size(63, 17)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Blodtype"
         '
@@ -822,9 +839,10 @@ Partial Class Ansattside
         '
         Me.cboBlodplater.FormattingEnabled = True
         Me.cboBlodplater.Items.AddRange(New Object() {"1", "2", "3", "4"})
-        Me.cboBlodplater.Location = New System.Drawing.Point(403, 434)
+        Me.cboBlodplater.Location = New System.Drawing.Point(537, 534)
+        Me.cboBlodplater.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboBlodplater.Name = "cboBlodplater"
-        Me.cboBlodplater.Size = New System.Drawing.Size(121, 21)
+        Me.cboBlodplater.Size = New System.Drawing.Size(160, 24)
         Me.cboBlodplater.TabIndex = 4
         Me.cboBlodplater.Text = "1"
         '
@@ -832,9 +850,10 @@ Partial Class Ansattside
         '
         Me.cboBlodplasma.FormattingEnabled = True
         Me.cboBlodplasma.Items.AddRange(New Object() {"1", "2", "3", "4"})
-        Me.cboBlodplasma.Location = New System.Drawing.Point(403, 405)
+        Me.cboBlodplasma.Location = New System.Drawing.Point(537, 498)
+        Me.cboBlodplasma.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboBlodplasma.Name = "cboBlodplasma"
-        Me.cboBlodplasma.Size = New System.Drawing.Size(121, 21)
+        Me.cboBlodplasma.Size = New System.Drawing.Size(160, 24)
         Me.cboBlodplasma.TabIndex = 3
         Me.cboBlodplasma.Text = "1"
         '
@@ -842,9 +861,10 @@ Partial Class Ansattside
         '
         Me.cboBlodlegeme.FormattingEnabled = True
         Me.cboBlodlegeme.Items.AddRange(New Object() {"1", "2", "3", "4"})
-        Me.cboBlodlegeme.Location = New System.Drawing.Point(403, 373)
+        Me.cboBlodlegeme.Location = New System.Drawing.Point(537, 459)
+        Me.cboBlodlegeme.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboBlodlegeme.Name = "cboBlodlegeme"
-        Me.cboBlodlegeme.Size = New System.Drawing.Size(121, 21)
+        Me.cboBlodlegeme.Size = New System.Drawing.Size(160, 24)
         Me.cboBlodlegeme.TabIndex = 2
         Me.cboBlodlegeme.Text = "1"
         '
@@ -853,9 +873,10 @@ Partial Class Ansattside
         Me.gridBlodplasma.BackgroundColor = System.Drawing.SystemColors.ControlLightLight
         Me.gridBlodplasma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.gridBlodplasma.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Blodtype, Me.Blodplasma})
-        Me.gridBlodplasma.Location = New System.Drawing.Point(28, 58)
+        Me.gridBlodplasma.Location = New System.Drawing.Point(37, 71)
+        Me.gridBlodplasma.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.gridBlodplasma.Name = "gridBlodplasma"
-        Me.gridBlodplasma.Size = New System.Drawing.Size(244, 237)
+        Me.gridBlodplasma.Size = New System.Drawing.Size(325, 292)
         Me.gridBlodplasma.TabIndex = 0
         '
         'Blodtype
@@ -877,29 +898,29 @@ Partial Class Ansattside
         Me.Blodgivning.Controls.Add(Me.lblMengde)
         Me.Blodgivning.Controls.Add(Me.lblPersnr)
         Me.Blodgivning.Controls.Add(Me.txtPersonnr)
-        Me.Blodgivning.Location = New System.Drawing.Point(4, 22)
-        Me.Blodgivning.Margin = New System.Windows.Forms.Padding(2)
+        Me.Blodgivning.Location = New System.Drawing.Point(4, 25)
+        Me.Blodgivning.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Blodgivning.Name = "Blodgivning"
-        Me.Blodgivning.Padding = New System.Windows.Forms.Padding(2)
-        Me.Blodgivning.Size = New System.Drawing.Size(833, 552)
+        Me.Blodgivning.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Blodgivning.Size = New System.Drawing.Size(1113, 682)
         Me.Blodgivning.TabIndex = 1
         Me.Blodgivning.Text = "Blodgivning"
         Me.Blodgivning.UseVisualStyleBackColor = True
         '
         'numBlodmengde
         '
-        Me.numBlodmengde.Location = New System.Drawing.Point(302, 221)
-        Me.numBlodmengde.Margin = New System.Windows.Forms.Padding(2)
+        Me.numBlodmengde.Location = New System.Drawing.Point(403, 272)
+        Me.numBlodmengde.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.numBlodmengde.Name = "numBlodmengde"
-        Me.numBlodmengde.Size = New System.Drawing.Size(103, 20)
+        Me.numBlodmengde.Size = New System.Drawing.Size(137, 22)
         Me.numBlodmengde.TabIndex = 18
         '
         'btnBlodgivning
         '
-        Me.btnBlodgivning.Location = New System.Drawing.Point(427, 160)
-        Me.btnBlodgivning.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnBlodgivning.Location = New System.Drawing.Point(569, 197)
+        Me.btnBlodgivning.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnBlodgivning.Name = "btnBlodgivning"
-        Me.btnBlodgivning.Size = New System.Drawing.Size(171, 115)
+        Me.btnBlodgivning.Size = New System.Drawing.Size(228, 142)
         Me.btnBlodgivning.TabIndex = 17
         Me.btnBlodgivning.Text = "Send inn"
         Me.btnBlodgivning.UseVisualStyleBackColor = True
@@ -907,29 +928,27 @@ Partial Class Ansattside
         'lblMengde
         '
         Me.lblMengde.AutoSize = True
-        Me.lblMengde.Location = New System.Drawing.Point(195, 221)
-        Me.lblMengde.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblMengde.Location = New System.Drawing.Point(260, 272)
         Me.lblMengde.Name = "lblMengde"
-        Me.lblMengde.Size = New System.Drawing.Size(98, 13)
+        Me.lblMengde.Size = New System.Drawing.Size(130, 17)
         Me.lblMengde.TabIndex = 14
         Me.lblMengde.Text = "Mengde blod (DL): "
         '
         'lblPersnr
         '
         Me.lblPersnr.AutoSize = True
-        Me.lblPersnr.Location = New System.Drawing.Point(195, 178)
-        Me.lblPersnr.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblPersnr.Location = New System.Drawing.Point(260, 219)
         Me.lblPersnr.Name = "lblPersnr"
-        Me.lblPersnr.Size = New System.Drawing.Size(83, 13)
+        Me.lblPersnr.Size = New System.Drawing.Size(112, 17)
         Me.lblPersnr.TabIndex = 13
         Me.lblPersnr.Text = "Personnummer: "
         '
         'txtPersonnr
         '
-        Me.txtPersonnr.Location = New System.Drawing.Point(302, 178)
-        Me.txtPersonnr.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtPersonnr.Location = New System.Drawing.Point(403, 219)
+        Me.txtPersonnr.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtPersonnr.Name = "txtPersonnr"
-        Me.txtPersonnr.Size = New System.Drawing.Size(104, 20)
+        Me.txtPersonnr.Size = New System.Drawing.Size(137, 22)
         Me.txtPersonnr.TabIndex = 11
         '
         'Innkalling
@@ -947,11 +966,11 @@ Partial Class Ansattside
         Me.Innkalling.Controls.Add(Me.lblØnskedeGivere)
         Me.Innkalling.Controls.Add(Me.cboBlodtypeInnkalling)
         Me.Innkalling.Controls.Add(Me.lblBlodtypeØnsket)
-        Me.Innkalling.Location = New System.Drawing.Point(4, 22)
-        Me.Innkalling.Margin = New System.Windows.Forms.Padding(2)
+        Me.Innkalling.Location = New System.Drawing.Point(4, 25)
+        Me.Innkalling.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Innkalling.Name = "Innkalling"
-        Me.Innkalling.Padding = New System.Windows.Forms.Padding(2)
-        Me.Innkalling.Size = New System.Drawing.Size(833, 552)
+        Me.Innkalling.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Innkalling.Size = New System.Drawing.Size(1113, 682)
         Me.Innkalling.TabIndex = 0
         Me.Innkalling.Text = "Innkalling"
         Me.Innkalling.UseVisualStyleBackColor = True
@@ -959,9 +978,10 @@ Partial Class Ansattside
         'Label135
         '
         Me.Label135.AutoSize = True
-        Me.Label135.Location = New System.Drawing.Point(443, 243)
+        Me.Label135.Location = New System.Drawing.Point(591, 299)
+        Me.Label135.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label135.Name = "Label135"
-        Me.Label135.Size = New System.Drawing.Size(57, 13)
+        Me.Label135.Size = New System.Drawing.Size(74, 17)
         Me.Label135.TabIndex = 21
         Me.Label135.Text = "Tidspunkt:"
         Me.Label135.Visible = False
@@ -969,53 +989,59 @@ Partial Class Ansattside
         'innkallingTidspunktComboBox
         '
         Me.innkallingTidspunktComboBox.FormattingEnabled = True
-        Me.innkallingTidspunktComboBox.Location = New System.Drawing.Point(528, 239)
+        Me.innkallingTidspunktComboBox.Location = New System.Drawing.Point(704, 294)
+        Me.innkallingTidspunktComboBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.innkallingTidspunktComboBox.Name = "innkallingTidspunktComboBox"
-        Me.innkallingTidspunktComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.innkallingTidspunktComboBox.Size = New System.Drawing.Size(160, 24)
         Me.innkallingTidspunktComboBox.TabIndex = 20
         Me.innkallingTidspunktComboBox.Visible = False
         '
         'btnHasteInnkalling
         '
-        Me.btnHasteInnkalling.Location = New System.Drawing.Point(446, 297)
+        Me.btnHasteInnkalling.Location = New System.Drawing.Point(595, 366)
+        Me.btnHasteInnkalling.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnHasteInnkalling.Name = "btnHasteInnkalling"
-        Me.btnHasteInnkalling.Size = New System.Drawing.Size(155, 27)
+        Me.btnHasteInnkalling.Size = New System.Drawing.Size(207, 33)
         Me.btnHasteInnkalling.TabIndex = 19
         Me.btnHasteInnkalling.Text = "Hasteinnkalling"
         Me.btnHasteInnkalling.UseVisualStyleBackColor = True
         '
         'btnInnkalling
         '
-        Me.btnInnkalling.Location = New System.Drawing.Point(247, 297)
+        Me.btnInnkalling.Location = New System.Drawing.Point(329, 366)
+        Me.btnInnkalling.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnInnkalling.Name = "btnInnkalling"
-        Me.btnInnkalling.Size = New System.Drawing.Size(149, 27)
+        Me.btnInnkalling.Size = New System.Drawing.Size(199, 33)
         Me.btnInnkalling.TabIndex = 18
         Me.btnInnkalling.Text = "Innkalling"
         Me.btnInnkalling.UseVisualStyleBackColor = True
         '
         'btnHasteProsedyre
         '
-        Me.btnHasteProsedyre.Location = New System.Drawing.Point(705, 499)
+        Me.btnHasteProsedyre.Location = New System.Drawing.Point(940, 614)
+        Me.btnHasteProsedyre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnHasteProsedyre.Name = "btnHasteProsedyre"
-        Me.btnHasteProsedyre.Size = New System.Drawing.Size(115, 23)
+        Me.btnHasteProsedyre.Size = New System.Drawing.Size(153, 28)
         Me.btnHasteProsedyre.TabIndex = 17
         Me.btnHasteProsedyre.Text = "Hasteprosedyre"
         Me.btnHasteProsedyre.UseVisualStyleBackColor = True
         '
         'btnNormalProsedyre
         '
-        Me.btnNormalProsedyre.Location = New System.Drawing.Point(591, 499)
+        Me.btnNormalProsedyre.Location = New System.Drawing.Point(788, 614)
+        Me.btnNormalProsedyre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnNormalProsedyre.Name = "btnNormalProsedyre"
-        Me.btnNormalProsedyre.Size = New System.Drawing.Size(108, 23)
+        Me.btnNormalProsedyre.Size = New System.Drawing.Size(144, 28)
         Me.btnNormalProsedyre.TabIndex = 16
         Me.btnNormalProsedyre.Text = "Normalprosedyre"
         Me.btnNormalProsedyre.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(646, -23)
+        Me.Button1.Location = New System.Drawing.Point(861, -28)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 15
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -1023,37 +1049,35 @@ Partial Class Ansattside
         'txtboxTilgjengelig
         '
         Me.txtboxTilgjengelig.Enabled = False
-        Me.txtboxTilgjengelig.Location = New System.Drawing.Point(557, 194)
-        Me.txtboxTilgjengelig.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtboxTilgjengelig.Location = New System.Drawing.Point(743, 239)
+        Me.txtboxTilgjengelig.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtboxTilgjengelig.Name = "txtboxTilgjengelig"
-        Me.txtboxTilgjengelig.Size = New System.Drawing.Size(92, 20)
+        Me.txtboxTilgjengelig.Size = New System.Drawing.Size(121, 22)
         Me.txtboxTilgjengelig.TabIndex = 14
         '
         'lblTilgjengeligeGivere
         '
         Me.lblTilgjengeligeGivere.AutoSize = True
-        Me.lblTilgjengeligeGivere.Location = New System.Drawing.Point(433, 197)
-        Me.lblTilgjengeligeGivere.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTilgjengeligeGivere.Location = New System.Drawing.Point(577, 242)
         Me.lblTilgjengeligeGivere.Name = "lblTilgjengeligeGivere"
-        Me.lblTilgjengeligeGivere.Size = New System.Drawing.Size(121, 13)
+        Me.lblTilgjengeligeGivere.Size = New System.Drawing.Size(162, 17)
         Me.lblTilgjengeligeGivere.TabIndex = 13
         Me.lblTilgjengeligeGivere.Text = "Tilgjengelige blodgivere:"
         '
         'txtAntallGivere
         '
-        Me.txtAntallGivere.Location = New System.Drawing.Point(304, 240)
-        Me.txtAntallGivere.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtAntallGivere.Location = New System.Drawing.Point(405, 295)
+        Me.txtAntallGivere.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtAntallGivere.Name = "txtAntallGivere"
-        Me.txtAntallGivere.Size = New System.Drawing.Size(92, 20)
+        Me.txtAntallGivere.Size = New System.Drawing.Size(121, 22)
         Me.txtAntallGivere.TabIndex = 12
         '
         'lblØnskedeGivere
         '
         Me.lblØnskedeGivere.AutoSize = True
-        Me.lblØnskedeGivere.Location = New System.Drawing.Point(175, 242)
-        Me.lblØnskedeGivere.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblØnskedeGivere.Location = New System.Drawing.Point(233, 298)
         Me.lblØnskedeGivere.Name = "lblØnskedeGivere"
-        Me.lblØnskedeGivere.Size = New System.Drawing.Size(126, 13)
+        Me.lblØnskedeGivere.Size = New System.Drawing.Size(167, 17)
         Me.lblØnskedeGivere.TabIndex = 11
         Me.lblØnskedeGivere.Text = "Antall blodgivere ønsket: "
         '
@@ -1062,19 +1086,18 @@ Partial Class Ansattside
         Me.cboBlodtypeInnkalling.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboBlodtypeInnkalling.FormattingEnabled = True
         Me.cboBlodtypeInnkalling.Items.AddRange(New Object() {"A", "B", "AB", "0"})
-        Me.cboBlodtypeInnkalling.Location = New System.Drawing.Point(304, 193)
-        Me.cboBlodtypeInnkalling.Margin = New System.Windows.Forms.Padding(2)
+        Me.cboBlodtypeInnkalling.Location = New System.Drawing.Point(405, 238)
+        Me.cboBlodtypeInnkalling.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cboBlodtypeInnkalling.Name = "cboBlodtypeInnkalling"
-        Me.cboBlodtypeInnkalling.Size = New System.Drawing.Size(92, 21)
+        Me.cboBlodtypeInnkalling.Size = New System.Drawing.Size(121, 24)
         Me.cboBlodtypeInnkalling.TabIndex = 8
         '
         'lblBlodtypeØnsket
         '
         Me.lblBlodtypeØnsket.AutoSize = True
-        Me.lblBlodtypeØnsket.Location = New System.Drawing.Point(211, 193)
-        Me.lblBlodtypeØnsket.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblBlodtypeØnsket.Location = New System.Drawing.Point(281, 238)
         Me.lblBlodtypeØnsket.Name = "lblBlodtypeØnsket"
-        Me.lblBlodtypeØnsket.Size = New System.Drawing.Size(90, 13)
+        Me.lblBlodtypeØnsket.Size = New System.Drawing.Size(119, 17)
         Me.lblBlodtypeØnsket.TabIndex = 6
         Me.lblBlodtypeØnsket.Text = "Ønsket blodtype: "
         '
@@ -1087,11 +1110,11 @@ Partial Class Ansattside
         Me.TabControl1.Controls.Add(Me.Reservasjoner)
         Me.TabControl1.Controls.Add(Me.Statistikk)
         Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Location = New System.Drawing.Point(0, 11)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabControl1.Location = New System.Drawing.Point(0, 14)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(841, 578)
+        Me.TabControl1.Size = New System.Drawing.Size(1121, 711)
         Me.TabControl1.TabIndex = 1
         '
         'Søk
@@ -1118,11 +1141,11 @@ Partial Class Ansattside
         Me.Søk.Controls.Add(Me.btnSok)
         Me.Søk.Controls.Add(Me.txtSok)
         Me.Søk.Controls.Add(Me.lblSok)
-        Me.Søk.Location = New System.Drawing.Point(4, 22)
-        Me.Søk.Margin = New System.Windows.Forms.Padding(2)
+        Me.Søk.Location = New System.Drawing.Point(4, 25)
+        Me.Søk.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Søk.Name = "Søk"
-        Me.Søk.Padding = New System.Windows.Forms.Padding(2)
-        Me.Søk.Size = New System.Drawing.Size(833, 552)
+        Me.Søk.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Søk.Size = New System.Drawing.Size(1113, 682)
         Me.Søk.TabIndex = 6
         Me.Søk.Text = "Søk/Endre"
         Me.Søk.UseVisualStyleBackColor = True
@@ -1130,25 +1153,28 @@ Partial Class Ansattside
         'labelEpost
         '
         Me.labelEpost.AutoSize = True
-        Me.labelEpost.Location = New System.Drawing.Point(189, 321)
+        Me.labelEpost.Location = New System.Drawing.Point(252, 395)
+        Me.labelEpost.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.labelEpost.Name = "labelEpost"
-        Me.labelEpost.Size = New System.Drawing.Size(34, 13)
+        Me.labelEpost.Size = New System.Drawing.Size(44, 17)
         Me.labelEpost.TabIndex = 33
         Me.labelEpost.Text = "Epost"
         '
         'txtEpost
         '
-        Me.txtEpost.Location = New System.Drawing.Point(247, 314)
+        Me.txtEpost.Location = New System.Drawing.Point(329, 386)
+        Me.txtEpost.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtEpost.Name = "txtEpost"
-        Me.txtEpost.Size = New System.Drawing.Size(100, 20)
+        Me.txtEpost.Size = New System.Drawing.Size(132, 22)
         Me.txtEpost.TabIndex = 32
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(193, 359)
+        Me.Label8.Location = New System.Drawing.Point(257, 442)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(48, 13)
+        Me.Label8.Size = New System.Drawing.Size(63, 17)
         Me.Label8.TabIndex = 31
         Me.Label8.Text = "Blodtype"
         '
@@ -1157,16 +1183,18 @@ Partial Class Ansattside
         Me.cboBlodType.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboBlodType.FormattingEnabled = True
         Me.cboBlodType.Items.AddRange(New Object() {"A+", "A-", "B+", "B-", "0+", "0-", "AB+", "AB-"})
-        Me.cboBlodType.Location = New System.Drawing.Point(247, 354)
+        Me.cboBlodType.Location = New System.Drawing.Point(329, 436)
+        Me.cboBlodType.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cboBlodType.Name = "cboBlodType"
-        Me.cboBlodType.Size = New System.Drawing.Size(44, 23)
+        Me.cboBlodType.Size = New System.Drawing.Size(57, 26)
         Me.cboBlodType.TabIndex = 30
         '
         'btnEndreInfo
         '
-        Me.btnEndreInfo.Location = New System.Drawing.Point(584, 278)
+        Me.btnEndreInfo.Location = New System.Drawing.Point(779, 342)
+        Me.btnEndreInfo.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnEndreInfo.Name = "btnEndreInfo"
-        Me.btnEndreInfo.Size = New System.Drawing.Size(82, 26)
+        Me.btnEndreInfo.Size = New System.Drawing.Size(109, 32)
         Me.btnEndreInfo.TabIndex = 29
         Me.btnEndreInfo.Text = "Endre info"
         Me.btnEndreInfo.UseVisualStyleBackColor = True
@@ -1174,141 +1202,154 @@ Partial Class Ansattside
         'lbPoststed
         '
         Me.lbPoststed.AutoSize = True
-        Me.lbPoststed.Location = New System.Drawing.Point(537, 237)
+        Me.lbPoststed.Location = New System.Drawing.Point(716, 292)
+        Me.lbPoststed.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbPoststed.Name = "lbPoststed"
-        Me.lbPoststed.Size = New System.Drawing.Size(0, 13)
+        Me.lbPoststed.Size = New System.Drawing.Size(0, 17)
         Me.lbPoststed.TabIndex = 28
         '
         'txtPostnummer
         '
-        Me.txtPostnummer.Location = New System.Drawing.Point(537, 193)
+        Me.txtPostnummer.Location = New System.Drawing.Point(716, 238)
+        Me.txtPostnummer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtPostnummer.Name = "txtPostnummer"
-        Me.txtPostnummer.Size = New System.Drawing.Size(100, 20)
+        Me.txtPostnummer.Size = New System.Drawing.Size(132, 22)
         Me.txtPostnummer.TabIndex = 27
         '
         'txtAdresse
         '
-        Me.txtAdresse.Location = New System.Drawing.Point(537, 151)
+        Me.txtAdresse.Location = New System.Drawing.Point(716, 186)
+        Me.txtAdresse.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtAdresse.Name = "txtAdresse"
-        Me.txtAdresse.Size = New System.Drawing.Size(148, 20)
+        Me.txtAdresse.Size = New System.Drawing.Size(196, 22)
         Me.txtAdresse.TabIndex = 26
         '
         'lbPoststedLabel
         '
         Me.lbPoststedLabel.AutoSize = True
-        Me.lbPoststedLabel.Location = New System.Drawing.Point(483, 237)
+        Me.lbPoststedLabel.Location = New System.Drawing.Point(644, 292)
+        Me.lbPoststedLabel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbPoststedLabel.Name = "lbPoststedLabel"
-        Me.lbPoststedLabel.Size = New System.Drawing.Size(48, 13)
+        Me.lbPoststedLabel.Size = New System.Drawing.Size(63, 17)
         Me.lbPoststedLabel.TabIndex = 25
         Me.lbPoststedLabel.Text = "Poststed"
         '
         'txtFodselsdato
         '
-        Me.txtFodselsdato.Location = New System.Drawing.Point(247, 234)
+        Me.txtFodselsdato.Location = New System.Drawing.Point(329, 288)
+        Me.txtFodselsdato.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtFodselsdato.Name = "txtFodselsdato"
-        Me.txtFodselsdato.Size = New System.Drawing.Size(100, 20)
+        Me.txtFodselsdato.Size = New System.Drawing.Size(132, 22)
         Me.txtFodselsdato.TabIndex = 24
         '
         'lbPostnummer
         '
         Me.lbPostnummer.AutoSize = True
-        Me.lbPostnummer.Location = New System.Drawing.Point(466, 196)
+        Me.lbPostnummer.Location = New System.Drawing.Point(621, 241)
+        Me.lbPostnummer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbPostnummer.Name = "lbPostnummer"
-        Me.lbPostnummer.Size = New System.Drawing.Size(65, 13)
+        Me.lbPostnummer.Size = New System.Drawing.Size(87, 17)
         Me.lbPostnummer.TabIndex = 23
         Me.lbPostnummer.Text = "Postnummer"
         '
         'lbAdresse
         '
         Me.lbAdresse.AutoSize = True
-        Me.lbAdresse.Location = New System.Drawing.Point(486, 155)
+        Me.lbAdresse.Location = New System.Drawing.Point(648, 191)
+        Me.lbAdresse.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbAdresse.Name = "lbAdresse"
-        Me.lbAdresse.Size = New System.Drawing.Size(45, 13)
+        Me.lbAdresse.Size = New System.Drawing.Size(60, 17)
         Me.lbAdresse.TabIndex = 22
         Me.lbAdresse.Text = "Adresse"
         '
         'lbFodselsdato
         '
         Me.lbFodselsdato.AutoSize = True
-        Me.lbFodselsdato.Location = New System.Drawing.Point(171, 237)
+        Me.lbFodselsdato.Location = New System.Drawing.Point(228, 292)
+        Me.lbFodselsdato.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbFodselsdato.Name = "lbFodselsdato"
-        Me.lbFodselsdato.Size = New System.Drawing.Size(64, 13)
+        Me.lbFodselsdato.Size = New System.Drawing.Size(85, 17)
         Me.lbFodselsdato.TabIndex = 21
         Me.lbFodselsdato.Text = "Fødselsdato"
         '
         'lbTelefon
         '
         Me.lbTelefon.AutoSize = True
-        Me.lbTelefon.Location = New System.Drawing.Point(189, 278)
+        Me.lbTelefon.Location = New System.Drawing.Point(252, 342)
+        Me.lbTelefon.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbTelefon.Name = "lbTelefon"
-        Me.lbTelefon.Size = New System.Drawing.Size(43, 13)
+        Me.lbTelefon.Size = New System.Drawing.Size(56, 17)
         Me.lbTelefon.TabIndex = 20
         Me.lbTelefon.Text = "Telefon"
         '
         'lbEtternavn
         '
         Me.lbEtternavn.AutoSize = True
-        Me.lbEtternavn.Location = New System.Drawing.Point(182, 200)
+        Me.lbEtternavn.Location = New System.Drawing.Point(243, 246)
+        Me.lbEtternavn.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbEtternavn.Name = "lbEtternavn"
-        Me.lbEtternavn.Size = New System.Drawing.Size(53, 13)
+        Me.lbEtternavn.Size = New System.Drawing.Size(69, 17)
         Me.lbEtternavn.TabIndex = 19
         Me.lbEtternavn.Text = "Etternavn"
         '
         'lbFornavn
         '
         Me.lbFornavn.AutoSize = True
-        Me.lbFornavn.Location = New System.Drawing.Point(189, 158)
+        Me.lbFornavn.Location = New System.Drawing.Point(252, 194)
+        Me.lbFornavn.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbFornavn.Name = "lbFornavn"
-        Me.lbFornavn.Size = New System.Drawing.Size(46, 13)
+        Me.lbFornavn.Size = New System.Drawing.Size(60, 17)
         Me.lbFornavn.TabIndex = 18
         Me.lbFornavn.Text = "Fornavn"
         '
         'txtTelefon
         '
-        Me.txtTelefon.Location = New System.Drawing.Point(247, 275)
+        Me.txtTelefon.Location = New System.Drawing.Point(329, 338)
+        Me.txtTelefon.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTelefon.Name = "txtTelefon"
-        Me.txtTelefon.Size = New System.Drawing.Size(100, 20)
+        Me.txtTelefon.Size = New System.Drawing.Size(132, 22)
         Me.txtTelefon.TabIndex = 17
         '
         'txtEtternavn
         '
-        Me.txtEtternavn.Location = New System.Drawing.Point(247, 197)
+        Me.txtEtternavn.Location = New System.Drawing.Point(329, 242)
+        Me.txtEtternavn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtEtternavn.Name = "txtEtternavn"
-        Me.txtEtternavn.Size = New System.Drawing.Size(100, 20)
+        Me.txtEtternavn.Size = New System.Drawing.Size(132, 22)
         Me.txtEtternavn.TabIndex = 16
         '
         'txtFornavn
         '
-        Me.txtFornavn.Location = New System.Drawing.Point(247, 155)
+        Me.txtFornavn.Location = New System.Drawing.Point(329, 191)
+        Me.txtFornavn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtFornavn.Name = "txtFornavn"
-        Me.txtFornavn.Size = New System.Drawing.Size(100, 20)
+        Me.txtFornavn.Size = New System.Drawing.Size(132, 22)
         Me.txtFornavn.TabIndex = 15
         '
         'btnSok
         '
-        Me.btnSok.Location = New System.Drawing.Point(466, 93)
-        Me.btnSok.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnSok.Location = New System.Drawing.Point(621, 114)
+        Me.btnSok.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnSok.Name = "btnSok"
-        Me.btnSok.Size = New System.Drawing.Size(56, 19)
+        Me.btnSok.Size = New System.Drawing.Size(75, 23)
         Me.btnSok.TabIndex = 2
         Me.btnSok.Text = "Søk!"
         Me.btnSok.UseVisualStyleBackColor = True
         '
         'txtSok
         '
-        Me.txtSok.Location = New System.Drawing.Point(296, 94)
-        Me.txtSok.Margin = New System.Windows.Forms.Padding(2)
+        Me.txtSok.Location = New System.Drawing.Point(395, 116)
+        Me.txtSok.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSok.Name = "txtSok"
-        Me.txtSok.Size = New System.Drawing.Size(156, 20)
+        Me.txtSok.Size = New System.Drawing.Size(207, 22)
         Me.txtSok.TabIndex = 1
         '
         'lblSok
         '
         Me.lblSok.AutoSize = True
-        Me.lblSok.Location = New System.Drawing.Point(166, 95)
-        Me.lblSok.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblSok.Location = New System.Drawing.Point(221, 117)
         Me.lblSok.Name = "lblSok"
-        Me.lblSok.Size = New System.Drawing.Size(125, 13)
+        Me.lblSok.Size = New System.Drawing.Size(168, 17)
         Me.lblSok.TabIndex = 0
         Me.lblSok.Text = "Søk etter personnummer:"
         '
@@ -1502,10 +1543,11 @@ Partial Class Ansattside
         Me.TabPage1.Controls.Add(Me.Label131)
         Me.TabPage1.Controls.Add(Me.Label132)
         Me.TabPage1.Controls.Add(Me.Label134)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(833, 552)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(1113, 682)
         Me.TabPage1.TabIndex = 7
         Me.TabPage1.Text = "Egenerklæring"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -1514,17 +1556,19 @@ Partial Class Ansattside
         '
         Me.Panel33.Controls.Add(Me.rb572)
         Me.Panel33.Controls.Add(Me.rb571)
-        Me.Panel33.Location = New System.Drawing.Point(319, 1119)
+        Me.Panel33.Location = New System.Drawing.Point(425, 1377)
+        Me.Panel33.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel33.Name = "Panel33"
-        Me.Panel33.Size = New System.Drawing.Size(46, 19)
+        Me.Panel33.Size = New System.Drawing.Size(61, 23)
         Me.Panel33.TabIndex = 596
         '
         'rb572
         '
         Me.rb572.AutoSize = True
-        Me.rb572.Location = New System.Drawing.Point(29, 3)
+        Me.rb572.Location = New System.Drawing.Point(39, 4)
+        Me.rb572.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb572.Name = "rb572"
-        Me.rb572.Size = New System.Drawing.Size(14, 13)
+        Me.rb572.Size = New System.Drawing.Size(17, 16)
         Me.rb572.TabIndex = 4
         Me.rb572.TabStop = True
         Me.rb572.UseVisualStyleBackColor = True
@@ -1532,9 +1576,10 @@ Partial Class Ansattside
         'rb571
         '
         Me.rb571.AutoSize = True
-        Me.rb571.Location = New System.Drawing.Point(5, 3)
+        Me.rb571.Location = New System.Drawing.Point(7, 4)
+        Me.rb571.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb571.Name = "rb571"
-        Me.rb571.Size = New System.Drawing.Size(14, 13)
+        Me.rb571.Size = New System.Drawing.Size(17, 16)
         Me.rb571.TabIndex = 3
         Me.rb571.TabStop = True
         Me.rb571.UseVisualStyleBackColor = True
@@ -1543,17 +1588,19 @@ Partial Class Ansattside
         '
         Me.Panel32.Controls.Add(Me.rb582)
         Me.Panel32.Controls.Add(Me.rb581)
-        Me.Panel32.Location = New System.Drawing.Point(319, 1144)
+        Me.Panel32.Location = New System.Drawing.Point(425, 1408)
+        Me.Panel32.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel32.Name = "Panel32"
-        Me.Panel32.Size = New System.Drawing.Size(46, 19)
+        Me.Panel32.Size = New System.Drawing.Size(61, 23)
         Me.Panel32.TabIndex = 597
         '
         'rb582
         '
         Me.rb582.AutoSize = True
-        Me.rb582.Location = New System.Drawing.Point(29, 3)
+        Me.rb582.Location = New System.Drawing.Point(39, 4)
+        Me.rb582.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb582.Name = "rb582"
-        Me.rb582.Size = New System.Drawing.Size(14, 13)
+        Me.rb582.Size = New System.Drawing.Size(17, 16)
         Me.rb582.TabIndex = 4
         Me.rb582.TabStop = True
         Me.rb582.UseVisualStyleBackColor = True
@@ -1561,9 +1608,10 @@ Partial Class Ansattside
         'rb581
         '
         Me.rb581.AutoSize = True
-        Me.rb581.Location = New System.Drawing.Point(5, 3)
+        Me.rb581.Location = New System.Drawing.Point(7, 4)
+        Me.rb581.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb581.Name = "rb581"
-        Me.rb581.Size = New System.Drawing.Size(14, 13)
+        Me.rb581.Size = New System.Drawing.Size(17, 16)
         Me.rb581.TabIndex = 3
         Me.rb581.TabStop = True
         Me.rb581.UseVisualStyleBackColor = True
@@ -1572,17 +1620,19 @@ Partial Class Ansattside
         '
         Me.Panel40.Controls.Add(Me.rb5112)
         Me.Panel40.Controls.Add(Me.rb5111)
-        Me.Panel40.Location = New System.Drawing.Point(319, 1214)
+        Me.Panel40.Location = New System.Drawing.Point(425, 1494)
+        Me.Panel40.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel40.Name = "Panel40"
-        Me.Panel40.Size = New System.Drawing.Size(46, 19)
+        Me.Panel40.Size = New System.Drawing.Size(61, 23)
         Me.Panel40.TabIndex = 600
         '
         'rb5112
         '
         Me.rb5112.AutoSize = True
-        Me.rb5112.Location = New System.Drawing.Point(29, 3)
+        Me.rb5112.Location = New System.Drawing.Point(39, 4)
+        Me.rb5112.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5112.Name = "rb5112"
-        Me.rb5112.Size = New System.Drawing.Size(14, 13)
+        Me.rb5112.Size = New System.Drawing.Size(17, 16)
         Me.rb5112.TabIndex = 4
         Me.rb5112.TabStop = True
         Me.rb5112.UseVisualStyleBackColor = True
@@ -1590,9 +1640,10 @@ Partial Class Ansattside
         'rb5111
         '
         Me.rb5111.AutoSize = True
-        Me.rb5111.Location = New System.Drawing.Point(5, 3)
+        Me.rb5111.Location = New System.Drawing.Point(7, 4)
+        Me.rb5111.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5111.Name = "rb5111"
-        Me.rb5111.Size = New System.Drawing.Size(14, 13)
+        Me.rb5111.Size = New System.Drawing.Size(17, 16)
         Me.rb5111.TabIndex = 3
         Me.rb5111.TabStop = True
         Me.rb5111.UseVisualStyleBackColor = True
@@ -1601,17 +1652,19 @@ Partial Class Ansattside
         '
         Me.Panel34.Controls.Add(Me.rb562)
         Me.Panel34.Controls.Add(Me.rb561)
-        Me.Panel34.Location = New System.Drawing.Point(319, 1094)
+        Me.Panel34.Location = New System.Drawing.Point(425, 1346)
+        Me.Panel34.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel34.Name = "Panel34"
-        Me.Panel34.Size = New System.Drawing.Size(46, 19)
+        Me.Panel34.Size = New System.Drawing.Size(61, 23)
         Me.Panel34.TabIndex = 595
         '
         'rb562
         '
         Me.rb562.AutoSize = True
-        Me.rb562.Location = New System.Drawing.Point(29, 3)
+        Me.rb562.Location = New System.Drawing.Point(39, 4)
+        Me.rb562.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb562.Name = "rb562"
-        Me.rb562.Size = New System.Drawing.Size(14, 13)
+        Me.rb562.Size = New System.Drawing.Size(17, 16)
         Me.rb562.TabIndex = 4
         Me.rb562.TabStop = True
         Me.rb562.UseVisualStyleBackColor = True
@@ -1619,9 +1672,10 @@ Partial Class Ansattside
         'rb561
         '
         Me.rb561.AutoSize = True
-        Me.rb561.Location = New System.Drawing.Point(5, 3)
+        Me.rb561.Location = New System.Drawing.Point(7, 4)
+        Me.rb561.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb561.Name = "rb561"
-        Me.rb561.Size = New System.Drawing.Size(14, 13)
+        Me.rb561.Size = New System.Drawing.Size(17, 16)
         Me.rb561.TabIndex = 3
         Me.rb561.TabStop = True
         Me.rb561.UseVisualStyleBackColor = True
@@ -1630,17 +1684,19 @@ Partial Class Ansattside
         '
         Me.Panel35.Controls.Add(Me.rb552)
         Me.Panel35.Controls.Add(Me.rb551)
-        Me.Panel35.Location = New System.Drawing.Point(319, 1069)
+        Me.Panel35.Location = New System.Drawing.Point(425, 1316)
+        Me.Panel35.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel35.Name = "Panel35"
-        Me.Panel35.Size = New System.Drawing.Size(46, 19)
+        Me.Panel35.Size = New System.Drawing.Size(61, 23)
         Me.Panel35.TabIndex = 594
         '
         'rb552
         '
         Me.rb552.AutoSize = True
-        Me.rb552.Location = New System.Drawing.Point(29, 3)
+        Me.rb552.Location = New System.Drawing.Point(39, 4)
+        Me.rb552.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb552.Name = "rb552"
-        Me.rb552.Size = New System.Drawing.Size(14, 13)
+        Me.rb552.Size = New System.Drawing.Size(17, 16)
         Me.rb552.TabIndex = 4
         Me.rb552.TabStop = True
         Me.rb552.UseVisualStyleBackColor = True
@@ -1648,9 +1704,10 @@ Partial Class Ansattside
         'rb551
         '
         Me.rb551.AutoSize = True
-        Me.rb551.Location = New System.Drawing.Point(5, 3)
+        Me.rb551.Location = New System.Drawing.Point(7, 4)
+        Me.rb551.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb551.Name = "rb551"
-        Me.rb551.Size = New System.Drawing.Size(14, 13)
+        Me.rb551.Size = New System.Drawing.Size(17, 16)
         Me.rb551.TabIndex = 3
         Me.rb551.TabStop = True
         Me.rb551.UseVisualStyleBackColor = True
@@ -1659,17 +1716,19 @@ Partial Class Ansattside
         '
         Me.Panel36.Controls.Add(Me.rb542)
         Me.Panel36.Controls.Add(Me.rb541)
-        Me.Panel36.Location = New System.Drawing.Point(319, 1047)
+        Me.Panel36.Location = New System.Drawing.Point(425, 1289)
+        Me.Panel36.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel36.Name = "Panel36"
-        Me.Panel36.Size = New System.Drawing.Size(46, 19)
+        Me.Panel36.Size = New System.Drawing.Size(61, 23)
         Me.Panel36.TabIndex = 593
         '
         'rb542
         '
         Me.rb542.AutoSize = True
-        Me.rb542.Location = New System.Drawing.Point(29, 3)
+        Me.rb542.Location = New System.Drawing.Point(39, 4)
+        Me.rb542.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb542.Name = "rb542"
-        Me.rb542.Size = New System.Drawing.Size(14, 13)
+        Me.rb542.Size = New System.Drawing.Size(17, 16)
         Me.rb542.TabIndex = 4
         Me.rb542.TabStop = True
         Me.rb542.UseVisualStyleBackColor = True
@@ -1677,9 +1736,10 @@ Partial Class Ansattside
         'rb541
         '
         Me.rb541.AutoSize = True
-        Me.rb541.Location = New System.Drawing.Point(5, 3)
+        Me.rb541.Location = New System.Drawing.Point(7, 4)
+        Me.rb541.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb541.Name = "rb541"
-        Me.rb541.Size = New System.Drawing.Size(14, 13)
+        Me.rb541.Size = New System.Drawing.Size(17, 16)
         Me.rb541.TabIndex = 3
         Me.rb541.TabStop = True
         Me.rb541.UseVisualStyleBackColor = True
@@ -1688,17 +1748,19 @@ Partial Class Ansattside
         '
         Me.Panel38.Controls.Add(Me.rb522)
         Me.Panel38.Controls.Add(Me.rb521)
-        Me.Panel38.Location = New System.Drawing.Point(319, 1004)
+        Me.Panel38.Location = New System.Drawing.Point(425, 1236)
+        Me.Panel38.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel38.Name = "Panel38"
-        Me.Panel38.Size = New System.Drawing.Size(46, 19)
+        Me.Panel38.Size = New System.Drawing.Size(61, 23)
         Me.Panel38.TabIndex = 591
         '
         'rb522
         '
         Me.rb522.AutoSize = True
-        Me.rb522.Location = New System.Drawing.Point(29, 3)
+        Me.rb522.Location = New System.Drawing.Point(39, 4)
+        Me.rb522.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb522.Name = "rb522"
-        Me.rb522.Size = New System.Drawing.Size(14, 13)
+        Me.rb522.Size = New System.Drawing.Size(17, 16)
         Me.rb522.TabIndex = 4
         Me.rb522.TabStop = True
         Me.rb522.UseVisualStyleBackColor = True
@@ -1706,9 +1768,10 @@ Partial Class Ansattside
         'rb521
         '
         Me.rb521.AutoSize = True
-        Me.rb521.Location = New System.Drawing.Point(5, 3)
+        Me.rb521.Location = New System.Drawing.Point(7, 4)
+        Me.rb521.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb521.Name = "rb521"
-        Me.rb521.Size = New System.Drawing.Size(14, 13)
+        Me.rb521.Size = New System.Drawing.Size(17, 16)
         Me.rb521.TabIndex = 3
         Me.rb521.TabStop = True
         Me.rb521.UseVisualStyleBackColor = True
@@ -1717,17 +1780,19 @@ Partial Class Ansattside
         '
         Me.Panel26.Controls.Add(Me.rb412)
         Me.Panel26.Controls.Add(Me.rb411)
-        Me.Panel26.Location = New System.Drawing.Point(319, 911)
+        Me.Panel26.Location = New System.Drawing.Point(425, 1121)
+        Me.Panel26.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel26.Name = "Panel26"
-        Me.Panel26.Size = New System.Drawing.Size(46, 19)
+        Me.Panel26.Size = New System.Drawing.Size(61, 23)
         Me.Panel26.TabIndex = 589
         '
         'rb412
         '
         Me.rb412.AutoSize = True
-        Me.rb412.Location = New System.Drawing.Point(29, 3)
+        Me.rb412.Location = New System.Drawing.Point(39, 4)
+        Me.rb412.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb412.Name = "rb412"
-        Me.rb412.Size = New System.Drawing.Size(14, 13)
+        Me.rb412.Size = New System.Drawing.Size(17, 16)
         Me.rb412.TabIndex = 4
         Me.rb412.TabStop = True
         Me.rb412.UseVisualStyleBackColor = True
@@ -1735,9 +1800,10 @@ Partial Class Ansattside
         'rb411
         '
         Me.rb411.AutoSize = True
-        Me.rb411.Location = New System.Drawing.Point(5, 3)
+        Me.rb411.Location = New System.Drawing.Point(7, 4)
+        Me.rb411.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb411.Name = "rb411"
-        Me.rb411.Size = New System.Drawing.Size(14, 13)
+        Me.rb411.Size = New System.Drawing.Size(17, 16)
         Me.rb411.TabIndex = 3
         Me.rb411.TabStop = True
         Me.rb411.UseVisualStyleBackColor = True
@@ -1746,17 +1812,19 @@ Partial Class Ansattside
         '
         Me.Panel39.Controls.Add(Me.rb512)
         Me.Panel39.Controls.Add(Me.rb511)
-        Me.Panel39.Location = New System.Drawing.Point(319, 977)
+        Me.Panel39.Location = New System.Drawing.Point(425, 1202)
+        Me.Panel39.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel39.Name = "Panel39"
-        Me.Panel39.Size = New System.Drawing.Size(46, 19)
+        Me.Panel39.Size = New System.Drawing.Size(61, 23)
         Me.Panel39.TabIndex = 590
         '
         'rb512
         '
         Me.rb512.AutoSize = True
-        Me.rb512.Location = New System.Drawing.Point(29, 3)
+        Me.rb512.Location = New System.Drawing.Point(39, 4)
+        Me.rb512.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb512.Name = "rb512"
-        Me.rb512.Size = New System.Drawing.Size(14, 13)
+        Me.rb512.Size = New System.Drawing.Size(17, 16)
         Me.rb512.TabIndex = 4
         Me.rb512.TabStop = True
         Me.rb512.UseVisualStyleBackColor = True
@@ -1764,9 +1832,10 @@ Partial Class Ansattside
         'rb511
         '
         Me.rb511.AutoSize = True
-        Me.rb511.Location = New System.Drawing.Point(5, 3)
+        Me.rb511.Location = New System.Drawing.Point(7, 4)
+        Me.rb511.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb511.Name = "rb511"
-        Me.rb511.Size = New System.Drawing.Size(14, 13)
+        Me.rb511.Size = New System.Drawing.Size(17, 16)
         Me.rb511.TabIndex = 3
         Me.rb511.TabStop = True
         Me.rb511.UseVisualStyleBackColor = True
@@ -1775,17 +1844,19 @@ Partial Class Ansattside
         '
         Me.Panel30.Controls.Add(Me.rb712)
         Me.Panel30.Controls.Add(Me.rb711)
-        Me.Panel30.Location = New System.Drawing.Point(628, 558)
+        Me.Panel30.Location = New System.Drawing.Point(837, 687)
+        Me.Panel30.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(46, 19)
+        Me.Panel30.Size = New System.Drawing.Size(61, 23)
         Me.Panel30.TabIndex = 584
         '
         'rb712
         '
         Me.rb712.AutoSize = True
-        Me.rb712.Location = New System.Drawing.Point(29, 3)
+        Me.rb712.Location = New System.Drawing.Point(39, 4)
+        Me.rb712.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb712.Name = "rb712"
-        Me.rb712.Size = New System.Drawing.Size(14, 13)
+        Me.rb712.Size = New System.Drawing.Size(17, 16)
         Me.rb712.TabIndex = 4
         Me.rb712.TabStop = True
         Me.rb712.UseVisualStyleBackColor = True
@@ -1793,9 +1864,10 @@ Partial Class Ansattside
         'rb711
         '
         Me.rb711.AutoSize = True
-        Me.rb711.Location = New System.Drawing.Point(5, 3)
+        Me.rb711.Location = New System.Drawing.Point(7, 4)
+        Me.rb711.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb711.Name = "rb711"
-        Me.rb711.Size = New System.Drawing.Size(14, 13)
+        Me.rb711.Size = New System.Drawing.Size(17, 16)
         Me.rb711.TabIndex = 3
         Me.rb711.TabStop = True
         Me.rb711.UseVisualStyleBackColor = True
@@ -1804,17 +1876,19 @@ Partial Class Ansattside
         '
         Me.Panel37.Controls.Add(Me.rb532)
         Me.Panel37.Controls.Add(Me.rb531)
-        Me.Panel37.Location = New System.Drawing.Point(319, 1025)
+        Me.Panel37.Location = New System.Drawing.Point(425, 1262)
+        Me.Panel37.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel37.Name = "Panel37"
-        Me.Panel37.Size = New System.Drawing.Size(46, 19)
+        Me.Panel37.Size = New System.Drawing.Size(61, 23)
         Me.Panel37.TabIndex = 592
         '
         'rb532
         '
         Me.rb532.AutoSize = True
-        Me.rb532.Location = New System.Drawing.Point(29, 3)
+        Me.rb532.Location = New System.Drawing.Point(39, 4)
+        Me.rb532.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb532.Name = "rb532"
-        Me.rb532.Size = New System.Drawing.Size(14, 13)
+        Me.rb532.Size = New System.Drawing.Size(17, 16)
         Me.rb532.TabIndex = 4
         Me.rb532.TabStop = True
         Me.rb532.UseVisualStyleBackColor = True
@@ -1822,9 +1896,10 @@ Partial Class Ansattside
         'rb531
         '
         Me.rb531.AutoSize = True
-        Me.rb531.Location = New System.Drawing.Point(5, 3)
+        Me.rb531.Location = New System.Drawing.Point(7, 4)
+        Me.rb531.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb531.Name = "rb531"
-        Me.rb531.Size = New System.Drawing.Size(14, 13)
+        Me.rb531.Size = New System.Drawing.Size(17, 16)
         Me.rb531.TabIndex = 3
         Me.rb531.TabStop = True
         Me.rb531.UseVisualStyleBackColor = True
@@ -1833,17 +1908,19 @@ Partial Class Ansattside
         '
         Me.Panel31.Controls.Add(Me.rb812)
         Me.Panel31.Controls.Add(Me.rb811)
-        Me.Panel31.Location = New System.Drawing.Point(629, 732)
+        Me.Panel31.Location = New System.Drawing.Point(839, 901)
+        Me.Panel31.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel31.Name = "Panel31"
-        Me.Panel31.Size = New System.Drawing.Size(46, 19)
+        Me.Panel31.Size = New System.Drawing.Size(61, 23)
         Me.Panel31.TabIndex = 583
         '
         'rb812
         '
         Me.rb812.AutoSize = True
-        Me.rb812.Location = New System.Drawing.Point(29, 3)
+        Me.rb812.Location = New System.Drawing.Point(39, 4)
+        Me.rb812.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb812.Name = "rb812"
-        Me.rb812.Size = New System.Drawing.Size(14, 13)
+        Me.rb812.Size = New System.Drawing.Size(17, 16)
         Me.rb812.TabIndex = 4
         Me.rb812.TabStop = True
         Me.rb812.UseVisualStyleBackColor = True
@@ -1851,9 +1928,10 @@ Partial Class Ansattside
         'rb811
         '
         Me.rb811.AutoSize = True
-        Me.rb811.Location = New System.Drawing.Point(5, 3)
+        Me.rb811.Location = New System.Drawing.Point(7, 4)
+        Me.rb811.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb811.Name = "rb811"
-        Me.rb811.Size = New System.Drawing.Size(14, 13)
+        Me.rb811.Size = New System.Drawing.Size(17, 16)
         Me.rb811.TabIndex = 3
         Me.rb811.TabStop = True
         Me.rb811.UseVisualStyleBackColor = True
@@ -1862,17 +1940,19 @@ Partial Class Ansattside
         '
         Me.Panel29.Controls.Add(Me.rb722)
         Me.Panel29.Controls.Add(Me.rb721)
-        Me.Panel29.Location = New System.Drawing.Point(628, 590)
+        Me.Panel29.Location = New System.Drawing.Point(837, 726)
+        Me.Panel29.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(46, 19)
+        Me.Panel29.Size = New System.Drawing.Size(61, 23)
         Me.Panel29.TabIndex = 586
         '
         'rb722
         '
         Me.rb722.AutoSize = True
-        Me.rb722.Location = New System.Drawing.Point(29, 3)
+        Me.rb722.Location = New System.Drawing.Point(39, 4)
+        Me.rb722.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb722.Name = "rb722"
-        Me.rb722.Size = New System.Drawing.Size(14, 13)
+        Me.rb722.Size = New System.Drawing.Size(17, 16)
         Me.rb722.TabIndex = 4
         Me.rb722.TabStop = True
         Me.rb722.UseVisualStyleBackColor = True
@@ -1880,9 +1960,10 @@ Partial Class Ansattside
         'rb721
         '
         Me.rb721.AutoSize = True
-        Me.rb721.Location = New System.Drawing.Point(5, 3)
+        Me.rb721.Location = New System.Drawing.Point(7, 4)
+        Me.rb721.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb721.Name = "rb721"
-        Me.rb721.Size = New System.Drawing.Size(14, 13)
+        Me.rb721.Size = New System.Drawing.Size(17, 16)
         Me.rb721.TabIndex = 3
         Me.rb721.TabStop = True
         Me.rb721.UseVisualStyleBackColor = True
@@ -1890,9 +1971,10 @@ Partial Class Ansattside
         'label4030
         '
         Me.label4030.AutoSize = True
-        Me.label4030.Location = New System.Drawing.Point(80, 110)
+        Me.label4030.Location = New System.Drawing.Point(107, 135)
+        Me.label4030.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.label4030.Name = "label4030"
-        Me.label4030.Size = New System.Drawing.Size(78, 13)
+        Me.label4030.Size = New System.Drawing.Size(105, 17)
         Me.label4030.TabIndex = 631
         Me.label4030.Text = "Brukernummer:"
         '
@@ -1900,17 +1982,19 @@ Partial Class Ansattside
         '
         Me.Panel28.Controls.Add(Me.rb732)
         Me.Panel28.Controls.Add(Me.rb731)
-        Me.Panel28.Location = New System.Drawing.Point(628, 626)
+        Me.Panel28.Location = New System.Drawing.Point(837, 770)
+        Me.Panel28.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(46, 19)
+        Me.Panel28.Size = New System.Drawing.Size(61, 23)
         Me.Panel28.TabIndex = 587
         '
         'rb732
         '
         Me.rb732.AutoSize = True
-        Me.rb732.Location = New System.Drawing.Point(29, 3)
+        Me.rb732.Location = New System.Drawing.Point(39, 4)
+        Me.rb732.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb732.Name = "rb732"
-        Me.rb732.Size = New System.Drawing.Size(14, 13)
+        Me.rb732.Size = New System.Drawing.Size(17, 16)
         Me.rb732.TabIndex = 4
         Me.rb732.TabStop = True
         Me.rb732.UseVisualStyleBackColor = True
@@ -1918,9 +2002,10 @@ Partial Class Ansattside
         'rb731
         '
         Me.rb731.AutoSize = True
-        Me.rb731.Location = New System.Drawing.Point(5, 3)
+        Me.rb731.Location = New System.Drawing.Point(7, 4)
+        Me.rb731.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb731.Name = "rb731"
-        Me.rb731.Size = New System.Drawing.Size(14, 13)
+        Me.rb731.Size = New System.Drawing.Size(17, 16)
         Me.rb731.TabIndex = 3
         Me.rb731.TabStop = True
         Me.rb731.UseVisualStyleBackColor = True
@@ -1929,17 +2014,19 @@ Partial Class Ansattside
         '
         Me.Panel27.Controls.Add(Me.rb742)
         Me.Panel27.Controls.Add(Me.rb741)
-        Me.Panel27.Location = New System.Drawing.Point(628, 667)
+        Me.Panel27.Location = New System.Drawing.Point(837, 821)
+        Me.Panel27.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(46, 19)
+        Me.Panel27.Size = New System.Drawing.Size(61, 23)
         Me.Panel27.TabIndex = 588
         '
         'rb742
         '
         Me.rb742.AutoSize = True
-        Me.rb742.Location = New System.Drawing.Point(29, 3)
+        Me.rb742.Location = New System.Drawing.Point(39, 4)
+        Me.rb742.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb742.Name = "rb742"
-        Me.rb742.Size = New System.Drawing.Size(14, 13)
+        Me.rb742.Size = New System.Drawing.Size(17, 16)
         Me.rb742.TabIndex = 4
         Me.rb742.TabStop = True
         Me.rb742.UseVisualStyleBackColor = True
@@ -1947,9 +2034,10 @@ Partial Class Ansattside
         'rb741
         '
         Me.rb741.AutoSize = True
-        Me.rb741.Location = New System.Drawing.Point(5, 3)
+        Me.rb741.Location = New System.Drawing.Point(7, 4)
+        Me.rb741.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb741.Name = "rb741"
-        Me.rb741.Size = New System.Drawing.Size(14, 13)
+        Me.rb741.Size = New System.Drawing.Size(17, 16)
         Me.rb741.TabIndex = 3
         Me.rb741.TabStop = True
         Me.rb741.UseVisualStyleBackColor = True
@@ -1958,17 +2046,19 @@ Partial Class Ansattside
         '
         Me.Panel25.Controls.Add(Me.rb382)
         Me.Panel25.Controls.Add(Me.rb381)
-        Me.Panel25.Location = New System.Drawing.Point(319, 794)
+        Me.Panel25.Location = New System.Drawing.Point(425, 977)
+        Me.Panel25.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel25.Name = "Panel25"
-        Me.Panel25.Size = New System.Drawing.Size(46, 19)
+        Me.Panel25.Size = New System.Drawing.Size(61, 23)
         Me.Panel25.TabIndex = 582
         '
         'rb382
         '
         Me.rb382.AutoSize = True
-        Me.rb382.Location = New System.Drawing.Point(29, 3)
+        Me.rb382.Location = New System.Drawing.Point(39, 4)
+        Me.rb382.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb382.Name = "rb382"
-        Me.rb382.Size = New System.Drawing.Size(14, 13)
+        Me.rb382.Size = New System.Drawing.Size(17, 16)
         Me.rb382.TabIndex = 4
         Me.rb382.TabStop = True
         Me.rb382.UseVisualStyleBackColor = True
@@ -1976,9 +2066,10 @@ Partial Class Ansattside
         'rb381
         '
         Me.rb381.AutoSize = True
-        Me.rb381.Location = New System.Drawing.Point(5, 3)
+        Me.rb381.Location = New System.Drawing.Point(7, 4)
+        Me.rb381.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb381.Name = "rb381"
-        Me.rb381.Size = New System.Drawing.Size(14, 13)
+        Me.rb381.Size = New System.Drawing.Size(17, 16)
         Me.rb381.TabIndex = 3
         Me.rb381.TabStop = True
         Me.rb381.UseVisualStyleBackColor = True
@@ -1987,17 +2078,19 @@ Partial Class Ansattside
         '
         Me.Panel24.Controls.Add(Me.rb372)
         Me.Panel24.Controls.Add(Me.rb371)
-        Me.Panel24.Location = New System.Drawing.Point(319, 761)
+        Me.Panel24.Location = New System.Drawing.Point(425, 937)
+        Me.Panel24.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(46, 19)
+        Me.Panel24.Size = New System.Drawing.Size(61, 23)
         Me.Panel24.TabIndex = 581
         '
         'rb372
         '
         Me.rb372.AutoSize = True
-        Me.rb372.Location = New System.Drawing.Point(29, 3)
+        Me.rb372.Location = New System.Drawing.Point(39, 4)
+        Me.rb372.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb372.Name = "rb372"
-        Me.rb372.Size = New System.Drawing.Size(14, 13)
+        Me.rb372.Size = New System.Drawing.Size(17, 16)
         Me.rb372.TabIndex = 4
         Me.rb372.TabStop = True
         Me.rb372.UseVisualStyleBackColor = True
@@ -2005,9 +2098,10 @@ Partial Class Ansattside
         'rb371
         '
         Me.rb371.AutoSize = True
-        Me.rb371.Location = New System.Drawing.Point(5, 3)
+        Me.rb371.Location = New System.Drawing.Point(7, 4)
+        Me.rb371.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb371.Name = "rb371"
-        Me.rb371.Size = New System.Drawing.Size(14, 13)
+        Me.rb371.Size = New System.Drawing.Size(17, 16)
         Me.rb371.TabIndex = 3
         Me.rb371.TabStop = True
         Me.rb371.UseVisualStyleBackColor = True
@@ -2016,17 +2110,19 @@ Partial Class Ansattside
         '
         Me.Panel21.Controls.Add(Me.rb362)
         Me.Panel21.Controls.Add(Me.rb361)
-        Me.Panel21.Location = New System.Drawing.Point(319, 736)
+        Me.Panel21.Location = New System.Drawing.Point(425, 906)
+        Me.Panel21.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel21.Name = "Panel21"
-        Me.Panel21.Size = New System.Drawing.Size(46, 19)
+        Me.Panel21.Size = New System.Drawing.Size(61, 23)
         Me.Panel21.TabIndex = 580
         '
         'rb362
         '
         Me.rb362.AutoSize = True
-        Me.rb362.Location = New System.Drawing.Point(29, 3)
+        Me.rb362.Location = New System.Drawing.Point(39, 4)
+        Me.rb362.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb362.Name = "rb362"
-        Me.rb362.Size = New System.Drawing.Size(14, 13)
+        Me.rb362.Size = New System.Drawing.Size(17, 16)
         Me.rb362.TabIndex = 4
         Me.rb362.TabStop = True
         Me.rb362.UseVisualStyleBackColor = True
@@ -2034,9 +2130,10 @@ Partial Class Ansattside
         'rb361
         '
         Me.rb361.AutoSize = True
-        Me.rb361.Location = New System.Drawing.Point(5, 3)
+        Me.rb361.Location = New System.Drawing.Point(7, 4)
+        Me.rb361.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb361.Name = "rb361"
-        Me.rb361.Size = New System.Drawing.Size(14, 13)
+        Me.rb361.Size = New System.Drawing.Size(17, 16)
         Me.rb361.TabIndex = 3
         Me.rb361.TabStop = True
         Me.rb361.UseVisualStyleBackColor = True
@@ -2045,17 +2142,19 @@ Partial Class Ansattside
         '
         Me.Panel16.Controls.Add(Me.rb252)
         Me.Panel16.Controls.Add(Me.rb251)
-        Me.Panel16.Location = New System.Drawing.Point(319, 515)
+        Me.Panel16.Location = New System.Drawing.Point(425, 634)
+        Me.Panel16.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel16.Name = "Panel16"
-        Me.Panel16.Size = New System.Drawing.Size(46, 19)
+        Me.Panel16.Size = New System.Drawing.Size(61, 23)
         Me.Panel16.TabIndex = 574
         '
         'rb252
         '
         Me.rb252.AutoSize = True
-        Me.rb252.Location = New System.Drawing.Point(29, 3)
+        Me.rb252.Location = New System.Drawing.Point(39, 4)
+        Me.rb252.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb252.Name = "rb252"
-        Me.rb252.Size = New System.Drawing.Size(14, 13)
+        Me.rb252.Size = New System.Drawing.Size(17, 16)
         Me.rb252.TabIndex = 4
         Me.rb252.TabStop = True
         Me.rb252.UseVisualStyleBackColor = True
@@ -2063,9 +2162,10 @@ Partial Class Ansattside
         'rb251
         '
         Me.rb251.AutoSize = True
-        Me.rb251.Location = New System.Drawing.Point(5, 3)
+        Me.rb251.Location = New System.Drawing.Point(7, 4)
+        Me.rb251.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb251.Name = "rb251"
-        Me.rb251.Size = New System.Drawing.Size(14, 13)
+        Me.rb251.Size = New System.Drawing.Size(17, 16)
         Me.rb251.TabIndex = 3
         Me.rb251.TabStop = True
         Me.rb251.UseVisualStyleBackColor = True
@@ -2074,17 +2174,19 @@ Partial Class Ansattside
         '
         Me.Panel17.Controls.Add(Me.rb242)
         Me.Panel17.Controls.Add(Me.rb241)
-        Me.Panel17.Location = New System.Drawing.Point(319, 493)
+        Me.Panel17.Location = New System.Drawing.Point(425, 607)
+        Me.Panel17.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel17.Name = "Panel17"
-        Me.Panel17.Size = New System.Drawing.Size(46, 19)
+        Me.Panel17.Size = New System.Drawing.Size(61, 23)
         Me.Panel17.TabIndex = 573
         '
         'rb242
         '
         Me.rb242.AutoSize = True
-        Me.rb242.Location = New System.Drawing.Point(29, 3)
+        Me.rb242.Location = New System.Drawing.Point(39, 4)
+        Me.rb242.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb242.Name = "rb242"
-        Me.rb242.Size = New System.Drawing.Size(14, 13)
+        Me.rb242.Size = New System.Drawing.Size(17, 16)
         Me.rb242.TabIndex = 4
         Me.rb242.TabStop = True
         Me.rb242.UseVisualStyleBackColor = True
@@ -2092,9 +2194,10 @@ Partial Class Ansattside
         'rb241
         '
         Me.rb241.AutoSize = True
-        Me.rb241.Location = New System.Drawing.Point(5, 3)
+        Me.rb241.Location = New System.Drawing.Point(7, 4)
+        Me.rb241.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb241.Name = "rb241"
-        Me.rb241.Size = New System.Drawing.Size(14, 13)
+        Me.rb241.Size = New System.Drawing.Size(17, 16)
         Me.rb241.TabIndex = 3
         Me.rb241.TabStop = True
         Me.rb241.UseVisualStyleBackColor = True
@@ -2103,17 +2206,19 @@ Partial Class Ansattside
         '
         Me.Panel14.Controls.Add(Me.rb222)
         Me.Panel14.Controls.Add(Me.rb221)
-        Me.Panel14.Location = New System.Drawing.Point(319, 446)
+        Me.Panel14.Location = New System.Drawing.Point(425, 549)
+        Me.Panel14.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(46, 19)
+        Me.Panel14.Size = New System.Drawing.Size(61, 23)
         Me.Panel14.TabIndex = 568
         '
         'rb222
         '
         Me.rb222.AutoSize = True
-        Me.rb222.Location = New System.Drawing.Point(29, 3)
+        Me.rb222.Location = New System.Drawing.Point(39, 4)
+        Me.rb222.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb222.Name = "rb222"
-        Me.rb222.Size = New System.Drawing.Size(14, 13)
+        Me.rb222.Size = New System.Drawing.Size(17, 16)
         Me.rb222.TabIndex = 4
         Me.rb222.TabStop = True
         Me.rb222.UseVisualStyleBackColor = True
@@ -2121,9 +2226,10 @@ Partial Class Ansattside
         'rb221
         '
         Me.rb221.AutoSize = True
-        Me.rb221.Location = New System.Drawing.Point(5, 3)
+        Me.rb221.Location = New System.Drawing.Point(7, 4)
+        Me.rb221.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb221.Name = "rb221"
-        Me.rb221.Size = New System.Drawing.Size(14, 13)
+        Me.rb221.Size = New System.Drawing.Size(17, 16)
         Me.rb221.TabIndex = 3
         Me.rb221.TabStop = True
         Me.rb221.UseVisualStyleBackColor = True
@@ -2132,17 +2238,19 @@ Partial Class Ansattside
         '
         Me.Panel18.Controls.Add(Me.rb332)
         Me.Panel18.Controls.Add(Me.rb331)
-        Me.Panel18.Location = New System.Drawing.Point(319, 655)
+        Me.Panel18.Location = New System.Drawing.Point(425, 806)
+        Me.Panel18.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(46, 19)
+        Me.Panel18.Size = New System.Drawing.Size(61, 23)
         Me.Panel18.TabIndex = 577
         '
         'rb332
         '
         Me.rb332.AutoSize = True
-        Me.rb332.Location = New System.Drawing.Point(29, 3)
+        Me.rb332.Location = New System.Drawing.Point(39, 4)
+        Me.rb332.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb332.Name = "rb332"
-        Me.rb332.Size = New System.Drawing.Size(14, 13)
+        Me.rb332.Size = New System.Drawing.Size(17, 16)
         Me.rb332.TabIndex = 4
         Me.rb332.TabStop = True
         Me.rb332.UseVisualStyleBackColor = True
@@ -2150,9 +2258,10 @@ Partial Class Ansattside
         'rb331
         '
         Me.rb331.AutoSize = True
-        Me.rb331.Location = New System.Drawing.Point(5, 3)
+        Me.rb331.Location = New System.Drawing.Point(7, 4)
+        Me.rb331.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb331.Name = "rb331"
-        Me.rb331.Size = New System.Drawing.Size(14, 13)
+        Me.rb331.Size = New System.Drawing.Size(17, 16)
         Me.rb331.TabIndex = 3
         Me.rb331.TabStop = True
         Me.rb331.UseVisualStyleBackColor = True
@@ -2161,17 +2270,19 @@ Partial Class Ansattside
         '
         Me.Panel12.Controls.Add(Me.rb232)
         Me.Panel12.Controls.Add(Me.rb231)
-        Me.Panel12.Location = New System.Drawing.Point(319, 468)
+        Me.Panel12.Location = New System.Drawing.Point(425, 576)
+        Me.Panel12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(46, 19)
+        Me.Panel12.Size = New System.Drawing.Size(61, 23)
         Me.Panel12.TabIndex = 572
         '
         'rb232
         '
         Me.rb232.AutoSize = True
-        Me.rb232.Location = New System.Drawing.Point(29, 3)
+        Me.rb232.Location = New System.Drawing.Point(39, 4)
+        Me.rb232.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb232.Name = "rb232"
-        Me.rb232.Size = New System.Drawing.Size(14, 13)
+        Me.rb232.Size = New System.Drawing.Size(17, 16)
         Me.rb232.TabIndex = 4
         Me.rb232.TabStop = True
         Me.rb232.UseVisualStyleBackColor = True
@@ -2179,9 +2290,10 @@ Partial Class Ansattside
         'rb231
         '
         Me.rb231.AutoSize = True
-        Me.rb231.Location = New System.Drawing.Point(5, 3)
+        Me.rb231.Location = New System.Drawing.Point(7, 4)
+        Me.rb231.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb231.Name = "rb231"
-        Me.rb231.Size = New System.Drawing.Size(14, 13)
+        Me.rb231.Size = New System.Drawing.Size(17, 16)
         Me.rb231.TabIndex = 3
         Me.rb231.TabStop = True
         Me.rb231.UseVisualStyleBackColor = True
@@ -2190,17 +2302,19 @@ Partial Class Ansattside
         '
         Me.Panel23.Controls.Add(Me.rb342)
         Me.Panel23.Controls.Add(Me.rb341)
-        Me.Panel23.Location = New System.Drawing.Point(319, 680)
+        Me.Panel23.Location = New System.Drawing.Point(425, 837)
+        Me.Panel23.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(46, 19)
+        Me.Panel23.Size = New System.Drawing.Size(61, 23)
         Me.Panel23.TabIndex = 578
         '
         'rb342
         '
         Me.rb342.AutoSize = True
-        Me.rb342.Location = New System.Drawing.Point(29, 3)
+        Me.rb342.Location = New System.Drawing.Point(39, 4)
+        Me.rb342.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb342.Name = "rb342"
-        Me.rb342.Size = New System.Drawing.Size(14, 13)
+        Me.rb342.Size = New System.Drawing.Size(17, 16)
         Me.rb342.TabIndex = 4
         Me.rb342.TabStop = True
         Me.rb342.UseVisualStyleBackColor = True
@@ -2208,9 +2322,10 @@ Partial Class Ansattside
         'rb341
         '
         Me.rb341.AutoSize = True
-        Me.rb341.Location = New System.Drawing.Point(5, 3)
+        Me.rb341.Location = New System.Drawing.Point(7, 4)
+        Me.rb341.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb341.Name = "rb341"
-        Me.rb341.Size = New System.Drawing.Size(14, 13)
+        Me.rb341.Size = New System.Drawing.Size(17, 16)
         Me.rb341.TabIndex = 3
         Me.rb341.TabStop = True
         Me.rb341.UseVisualStyleBackColor = True
@@ -2219,17 +2334,19 @@ Partial Class Ansattside
         '
         Me.Panel20.Controls.Add(Me.rb312)
         Me.Panel20.Controls.Add(Me.rb311)
-        Me.Panel20.Location = New System.Drawing.Point(319, 587)
+        Me.Panel20.Location = New System.Drawing.Point(425, 722)
+        Me.Panel20.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(46, 19)
+        Me.Panel20.Size = New System.Drawing.Size(61, 23)
         Me.Panel20.TabIndex = 575
         '
         'rb312
         '
         Me.rb312.AutoSize = True
-        Me.rb312.Location = New System.Drawing.Point(29, 3)
+        Me.rb312.Location = New System.Drawing.Point(39, 4)
+        Me.rb312.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb312.Name = "rb312"
-        Me.rb312.Size = New System.Drawing.Size(14, 13)
+        Me.rb312.Size = New System.Drawing.Size(17, 16)
         Me.rb312.TabIndex = 4
         Me.rb312.TabStop = True
         Me.rb312.UseVisualStyleBackColor = True
@@ -2237,9 +2354,10 @@ Partial Class Ansattside
         'rb311
         '
         Me.rb311.AutoSize = True
-        Me.rb311.Location = New System.Drawing.Point(5, 3)
+        Me.rb311.Location = New System.Drawing.Point(7, 4)
+        Me.rb311.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb311.Name = "rb311"
-        Me.rb311.Size = New System.Drawing.Size(14, 13)
+        Me.rb311.Size = New System.Drawing.Size(17, 16)
         Me.rb311.TabIndex = 3
         Me.rb311.TabStop = True
         Me.rb311.UseVisualStyleBackColor = True
@@ -2248,17 +2366,19 @@ Partial Class Ansattside
         '
         Me.Panel9.Controls.Add(Me.rb142)
         Me.Panel9.Controls.Add(Me.rb141)
-        Me.Panel9.Location = New System.Drawing.Point(319, 316)
+        Me.Panel9.Location = New System.Drawing.Point(425, 389)
+        Me.Panel9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(46, 19)
+        Me.Panel9.Size = New System.Drawing.Size(61, 23)
         Me.Panel9.TabIndex = 570
         '
         'rb142
         '
         Me.rb142.AutoSize = True
-        Me.rb142.Location = New System.Drawing.Point(29, 3)
+        Me.rb142.Location = New System.Drawing.Point(39, 4)
+        Me.rb142.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb142.Name = "rb142"
-        Me.rb142.Size = New System.Drawing.Size(14, 13)
+        Me.rb142.Size = New System.Drawing.Size(17, 16)
         Me.rb142.TabIndex = 4
         Me.rb142.TabStop = True
         Me.rb142.UseVisualStyleBackColor = True
@@ -2266,9 +2386,10 @@ Partial Class Ansattside
         'rb141
         '
         Me.rb141.AutoSize = True
-        Me.rb141.Location = New System.Drawing.Point(5, 3)
+        Me.rb141.Location = New System.Drawing.Point(7, 4)
+        Me.rb141.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb141.Name = "rb141"
-        Me.rb141.Size = New System.Drawing.Size(14, 13)
+        Me.rb141.Size = New System.Drawing.Size(17, 16)
         Me.rb141.TabIndex = 3
         Me.rb141.TabStop = True
         Me.rb141.UseVisualStyleBackColor = True
@@ -2277,17 +2398,19 @@ Partial Class Ansattside
         '
         Me.Panel22.Controls.Add(Me.rb352)
         Me.Panel22.Controls.Add(Me.rb351)
-        Me.Panel22.Location = New System.Drawing.Point(319, 705)
+        Me.Panel22.Location = New System.Drawing.Point(425, 868)
+        Me.Panel22.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(46, 19)
+        Me.Panel22.Size = New System.Drawing.Size(61, 23)
         Me.Panel22.TabIndex = 579
         '
         'rb352
         '
         Me.rb352.AutoSize = True
-        Me.rb352.Location = New System.Drawing.Point(29, 3)
+        Me.rb352.Location = New System.Drawing.Point(39, 4)
+        Me.rb352.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb352.Name = "rb352"
-        Me.rb352.Size = New System.Drawing.Size(14, 13)
+        Me.rb352.Size = New System.Drawing.Size(17, 16)
         Me.rb352.TabIndex = 4
         Me.rb352.TabStop = True
         Me.rb352.UseVisualStyleBackColor = True
@@ -2295,9 +2418,10 @@ Partial Class Ansattside
         'rb351
         '
         Me.rb351.AutoSize = True
-        Me.rb351.Location = New System.Drawing.Point(5, 3)
+        Me.rb351.Location = New System.Drawing.Point(7, 4)
+        Me.rb351.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb351.Name = "rb351"
-        Me.rb351.Size = New System.Drawing.Size(14, 13)
+        Me.rb351.Size = New System.Drawing.Size(17, 16)
         Me.rb351.TabIndex = 3
         Me.rb351.TabStop = True
         Me.rb351.UseVisualStyleBackColor = True
@@ -2306,17 +2430,19 @@ Partial Class Ansattside
         '
         Me.Panel19.Controls.Add(Me.rb322)
         Me.Panel19.Controls.Add(Me.rb321)
-        Me.Panel19.Location = New System.Drawing.Point(319, 619)
+        Me.Panel19.Location = New System.Drawing.Point(425, 762)
+        Me.Panel19.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(46, 19)
+        Me.Panel19.Size = New System.Drawing.Size(61, 23)
         Me.Panel19.TabIndex = 576
         '
         'rb322
         '
         Me.rb322.AutoSize = True
-        Me.rb322.Location = New System.Drawing.Point(29, 3)
+        Me.rb322.Location = New System.Drawing.Point(39, 4)
+        Me.rb322.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb322.Name = "rb322"
-        Me.rb322.Size = New System.Drawing.Size(14, 13)
+        Me.rb322.Size = New System.Drawing.Size(17, 16)
         Me.rb322.TabIndex = 4
         Me.rb322.TabStop = True
         Me.rb322.UseVisualStyleBackColor = True
@@ -2324,9 +2450,10 @@ Partial Class Ansattside
         'rb321
         '
         Me.rb321.AutoSize = True
-        Me.rb321.Location = New System.Drawing.Point(5, 3)
+        Me.rb321.Location = New System.Drawing.Point(7, 4)
+        Me.rb321.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb321.Name = "rb321"
-        Me.rb321.Size = New System.Drawing.Size(14, 13)
+        Me.rb321.Size = New System.Drawing.Size(17, 16)
         Me.rb321.TabIndex = 3
         Me.rb321.TabStop = True
         Me.rb321.UseVisualStyleBackColor = True
@@ -2335,17 +2462,19 @@ Partial Class Ansattside
         '
         Me.Panel8.Controls.Add(Me.rb132)
         Me.Panel8.Controls.Add(Me.rb131)
-        Me.Panel8.Location = New System.Drawing.Point(319, 283)
+        Me.Panel8.Location = New System.Drawing.Point(425, 348)
+        Me.Panel8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(46, 19)
+        Me.Panel8.Size = New System.Drawing.Size(61, 23)
         Me.Panel8.TabIndex = 571
         '
         'rb132
         '
         Me.rb132.AutoSize = True
-        Me.rb132.Location = New System.Drawing.Point(29, 3)
+        Me.rb132.Location = New System.Drawing.Point(39, 4)
+        Me.rb132.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb132.Name = "rb132"
-        Me.rb132.Size = New System.Drawing.Size(14, 13)
+        Me.rb132.Size = New System.Drawing.Size(17, 16)
         Me.rb132.TabIndex = 4
         Me.rb132.TabStop = True
         Me.rb132.UseVisualStyleBackColor = True
@@ -2353,9 +2482,10 @@ Partial Class Ansattside
         'rb131
         '
         Me.rb131.AutoSize = True
-        Me.rb131.Location = New System.Drawing.Point(5, 3)
+        Me.rb131.Location = New System.Drawing.Point(7, 4)
+        Me.rb131.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb131.Name = "rb131"
-        Me.rb131.Size = New System.Drawing.Size(14, 13)
+        Me.rb131.Size = New System.Drawing.Size(17, 16)
         Me.rb131.TabIndex = 3
         Me.rb131.TabStop = True
         Me.rb131.UseVisualStyleBackColor = True
@@ -2364,17 +2494,19 @@ Partial Class Ansattside
         '
         Me.Panel60.Controls.Add(Me.rb392)
         Me.Panel60.Controls.Add(Me.rb391)
-        Me.Panel60.Location = New System.Drawing.Point(319, 822)
+        Me.Panel60.Location = New System.Drawing.Point(425, 1012)
+        Me.Panel60.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel60.Name = "Panel60"
-        Me.Panel60.Size = New System.Drawing.Size(46, 19)
+        Me.Panel60.Size = New System.Drawing.Size(61, 23)
         Me.Panel60.TabIndex = 585
         '
         'rb392
         '
         Me.rb392.AutoSize = True
-        Me.rb392.Location = New System.Drawing.Point(29, 3)
+        Me.rb392.Location = New System.Drawing.Point(39, 4)
+        Me.rb392.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb392.Name = "rb392"
-        Me.rb392.Size = New System.Drawing.Size(14, 13)
+        Me.rb392.Size = New System.Drawing.Size(17, 16)
         Me.rb392.TabIndex = 4
         Me.rb392.TabStop = True
         Me.rb392.UseVisualStyleBackColor = True
@@ -2382,9 +2514,10 @@ Partial Class Ansattside
         'rb391
         '
         Me.rb391.AutoSize = True
-        Me.rb391.Location = New System.Drawing.Point(5, 3)
+        Me.rb391.Location = New System.Drawing.Point(7, 4)
+        Me.rb391.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb391.Name = "rb391"
-        Me.rb391.Size = New System.Drawing.Size(14, 13)
+        Me.rb391.Size = New System.Drawing.Size(17, 16)
         Me.rb391.TabIndex = 3
         Me.rb391.TabStop = True
         Me.rb391.UseVisualStyleBackColor = True
@@ -2393,17 +2526,19 @@ Partial Class Ansattside
         '
         Me.Panel59.Controls.Add(Me.rb1102)
         Me.Panel59.Controls.Add(Me.rb3101)
-        Me.Panel59.Location = New System.Drawing.Point(319, 844)
+        Me.Panel59.Location = New System.Drawing.Point(425, 1039)
+        Me.Panel59.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel59.Name = "Panel59"
-        Me.Panel59.Size = New System.Drawing.Size(46, 19)
+        Me.Panel59.Size = New System.Drawing.Size(61, 23)
         Me.Panel59.TabIndex = 618
         '
         'rb1102
         '
         Me.rb1102.AutoSize = True
-        Me.rb1102.Location = New System.Drawing.Point(29, 3)
+        Me.rb1102.Location = New System.Drawing.Point(39, 4)
+        Me.rb1102.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb1102.Name = "rb1102"
-        Me.rb1102.Size = New System.Drawing.Size(14, 13)
+        Me.rb1102.Size = New System.Drawing.Size(17, 16)
         Me.rb1102.TabIndex = 4
         Me.rb1102.TabStop = True
         Me.rb1102.UseVisualStyleBackColor = True
@@ -2411,9 +2546,10 @@ Partial Class Ansattside
         'rb3101
         '
         Me.rb3101.AutoSize = True
-        Me.rb3101.Location = New System.Drawing.Point(5, 3)
+        Me.rb3101.Location = New System.Drawing.Point(7, 4)
+        Me.rb3101.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb3101.Name = "rb3101"
-        Me.rb3101.Size = New System.Drawing.Size(14, 13)
+        Me.rb3101.Size = New System.Drawing.Size(17, 16)
         Me.rb3101.TabIndex = 3
         Me.rb3101.TabStop = True
         Me.rb3101.UseVisualStyleBackColor = True
@@ -2422,17 +2558,19 @@ Partial Class Ansattside
         '
         Me.Panel58.Controls.Add(Me.rbSMSNei)
         Me.Panel58.Controls.Add(Me.rbSMSJa)
-        Me.Panel58.Location = New System.Drawing.Point(83, 183)
+        Me.Panel58.Location = New System.Drawing.Point(111, 225)
+        Me.Panel58.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel58.Name = "Panel58"
-        Me.Panel58.Size = New System.Drawing.Size(46, 19)
+        Me.Panel58.Size = New System.Drawing.Size(61, 23)
         Me.Panel58.TabIndex = 567
         '
         'rbSMSNei
         '
         Me.rbSMSNei.AutoSize = True
-        Me.rbSMSNei.Location = New System.Drawing.Point(29, 3)
+        Me.rbSMSNei.Location = New System.Drawing.Point(39, 4)
+        Me.rbSMSNei.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbSMSNei.Name = "rbSMSNei"
-        Me.rbSMSNei.Size = New System.Drawing.Size(14, 13)
+        Me.rbSMSNei.Size = New System.Drawing.Size(17, 16)
         Me.rbSMSNei.TabIndex = 4
         Me.rbSMSNei.TabStop = True
         Me.rbSMSNei.UseVisualStyleBackColor = True
@@ -2440,9 +2578,10 @@ Partial Class Ansattside
         'rbSMSJa
         '
         Me.rbSMSJa.AutoSize = True
-        Me.rbSMSJa.Location = New System.Drawing.Point(5, 3)
+        Me.rbSMSJa.Location = New System.Drawing.Point(7, 4)
+        Me.rbSMSJa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbSMSJa.Name = "rbSMSJa"
-        Me.rbSMSJa.Size = New System.Drawing.Size(14, 13)
+        Me.rbSMSJa.Size = New System.Drawing.Size(17, 16)
         Me.rbSMSJa.TabIndex = 3
         Me.rbSMSJa.TabStop = True
         Me.rbSMSJa.UseVisualStyleBackColor = True
@@ -2451,17 +2590,19 @@ Partial Class Ansattside
         '
         Me.Panel57.Controls.Add(Me.rbEpostNei)
         Me.Panel57.Controls.Add(Me.rbEpostJa)
-        Me.Panel57.Location = New System.Drawing.Point(83, 161)
+        Me.Panel57.Location = New System.Drawing.Point(111, 198)
+        Me.Panel57.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel57.Name = "Panel57"
-        Me.Panel57.Size = New System.Drawing.Size(46, 19)
+        Me.Panel57.Size = New System.Drawing.Size(61, 23)
         Me.Panel57.TabIndex = 617
         '
         'rbEpostNei
         '
         Me.rbEpostNei.AutoSize = True
-        Me.rbEpostNei.Location = New System.Drawing.Point(29, 3)
+        Me.rbEpostNei.Location = New System.Drawing.Point(39, 4)
+        Me.rbEpostNei.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbEpostNei.Name = "rbEpostNei"
-        Me.rbEpostNei.Size = New System.Drawing.Size(14, 13)
+        Me.rbEpostNei.Size = New System.Drawing.Size(17, 16)
         Me.rbEpostNei.TabIndex = 4
         Me.rbEpostNei.TabStop = True
         Me.rbEpostNei.UseVisualStyleBackColor = True
@@ -2469,9 +2610,10 @@ Partial Class Ansattside
         'rbEpostJa
         '
         Me.rbEpostJa.AutoSize = True
-        Me.rbEpostJa.Location = New System.Drawing.Point(5, 3)
+        Me.rbEpostJa.Location = New System.Drawing.Point(7, 4)
+        Me.rbEpostJa.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbEpostJa.Name = "rbEpostJa"
-        Me.rbEpostJa.Size = New System.Drawing.Size(14, 13)
+        Me.rbEpostJa.Size = New System.Drawing.Size(17, 16)
         Me.rbEpostJa.TabIndex = 3
         Me.rbEpostJa.TabStop = True
         Me.rbEpostJa.UseVisualStyleBackColor = True
@@ -2479,9 +2621,10 @@ Partial Class Ansattside
         'Label125
         '
         Me.Label125.AutoSize = True
-        Me.Label125.Location = New System.Drawing.Point(132, 186)
+        Me.Label125.Location = New System.Drawing.Point(176, 229)
+        Me.Label125.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label125.Name = "Label125"
-        Me.Label125.Size = New System.Drawing.Size(503, 13)
+        Me.Label125.Size = New System.Drawing.Size(673, 17)
         Me.Label125.TabIndex = 616
         Me.Label125.Text = "Tillater du at blodbanken sender deg SMS(Innkalling, timepåminning, eventuelt ann" &
     "en viktig informasjon)?"
@@ -2489,9 +2632,10 @@ Partial Class Ansattside
         'Label127
         '
         Me.Label127.AutoSize = True
-        Me.Label127.Location = New System.Drawing.Point(132, 164)
+        Me.Label127.Location = New System.Drawing.Point(176, 202)
+        Me.Label127.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label127.Name = "Label127"
-        Me.Label127.Size = New System.Drawing.Size(506, 13)
+        Me.Label127.Size = New System.Drawing.Size(679, 17)
         Me.Label127.TabIndex = 615
         Me.Label127.Text = "Tillater du at blodbanken sender deg epost(Innkalling, timepåminning, eventuelt a" &
     "nnen viktig informasjon)?"
@@ -2500,17 +2644,19 @@ Partial Class Ansattside
         '
         Me.Panel56.Controls.Add(Me.rb912)
         Me.Panel56.Controls.Add(Me.rb911)
-        Me.Panel56.Location = New System.Drawing.Point(629, 803)
+        Me.Panel56.Location = New System.Drawing.Point(839, 988)
+        Me.Panel56.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel56.Name = "Panel56"
-        Me.Panel56.Size = New System.Drawing.Size(46, 19)
+        Me.Panel56.Size = New System.Drawing.Size(61, 23)
         Me.Panel56.TabIndex = 605
         '
         'rb912
         '
         Me.rb912.AutoSize = True
-        Me.rb912.Location = New System.Drawing.Point(29, 3)
+        Me.rb912.Location = New System.Drawing.Point(39, 4)
+        Me.rb912.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb912.Name = "rb912"
-        Me.rb912.Size = New System.Drawing.Size(14, 13)
+        Me.rb912.Size = New System.Drawing.Size(17, 16)
         Me.rb912.TabIndex = 4
         Me.rb912.TabStop = True
         Me.rb912.UseVisualStyleBackColor = True
@@ -2518,9 +2664,10 @@ Partial Class Ansattside
         'rb911
         '
         Me.rb911.AutoSize = True
-        Me.rb911.Location = New System.Drawing.Point(5, 3)
+        Me.rb911.Location = New System.Drawing.Point(7, 4)
+        Me.rb911.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb911.Name = "rb911"
-        Me.rb911.Size = New System.Drawing.Size(14, 13)
+        Me.rb911.Size = New System.Drawing.Size(17, 16)
         Me.rb911.TabIndex = 3
         Me.rb911.TabStop = True
         Me.rb911.UseVisualStyleBackColor = True
@@ -2529,17 +2676,19 @@ Partial Class Ansattside
         '
         Me.Panel41.Controls.Add(Me.rb5102)
         Me.Panel41.Controls.Add(Me.rb5101)
-        Me.Panel41.Location = New System.Drawing.Point(319, 1192)
+        Me.Panel41.Location = New System.Drawing.Point(425, 1467)
+        Me.Panel41.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel41.Name = "Panel41"
-        Me.Panel41.Size = New System.Drawing.Size(46, 19)
+        Me.Panel41.Size = New System.Drawing.Size(61, 23)
         Me.Panel41.TabIndex = 599
         '
         'rb5102
         '
         Me.rb5102.AutoSize = True
-        Me.rb5102.Location = New System.Drawing.Point(29, 3)
+        Me.rb5102.Location = New System.Drawing.Point(39, 4)
+        Me.rb5102.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5102.Name = "rb5102"
-        Me.rb5102.Size = New System.Drawing.Size(14, 13)
+        Me.rb5102.Size = New System.Drawing.Size(17, 16)
         Me.rb5102.TabIndex = 4
         Me.rb5102.TabStop = True
         Me.rb5102.UseVisualStyleBackColor = True
@@ -2547,9 +2696,10 @@ Partial Class Ansattside
         'rb5101
         '
         Me.rb5101.AutoSize = True
-        Me.rb5101.Location = New System.Drawing.Point(5, 3)
+        Me.rb5101.Location = New System.Drawing.Point(7, 4)
+        Me.rb5101.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5101.Name = "rb5101"
-        Me.rb5101.Size = New System.Drawing.Size(14, 13)
+        Me.rb5101.Size = New System.Drawing.Size(17, 16)
         Me.rb5101.TabIndex = 3
         Me.rb5101.TabStop = True
         Me.rb5101.UseVisualStyleBackColor = True
@@ -2557,68 +2707,76 @@ Partial Class Ansattside
         'lblPersonID
         '
         Me.lblPersonID.AutoSize = True
-        Me.lblPersonID.Location = New System.Drawing.Point(164, 110)
+        Me.lblPersonID.Location = New System.Drawing.Point(219, 135)
+        Me.lblPersonID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPersonID.Name = "lblPersonID"
-        Me.lblPersonID.Size = New System.Drawing.Size(0, 13)
+        Me.lblPersonID.Size = New System.Drawing.Size(0, 17)
         Me.lblPersonID.TabIndex = 632
         '
         'lblEtternavn
         '
         Me.lblEtternavn.AutoSize = True
-        Me.lblEtternavn.Location = New System.Drawing.Point(169, 84)
+        Me.lblEtternavn.Location = New System.Drawing.Point(225, 103)
+        Me.lblEtternavn.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblEtternavn.Name = "lblEtternavn"
-        Me.lblEtternavn.Size = New System.Drawing.Size(0, 13)
+        Me.lblEtternavn.Size = New System.Drawing.Size(0, 17)
         Me.lblEtternavn.TabIndex = 630
         '
         'lblFornavn
         '
         Me.lblFornavn.AutoSize = True
-        Me.lblFornavn.Location = New System.Drawing.Point(169, 61)
+        Me.lblFornavn.Location = New System.Drawing.Point(225, 75)
+        Me.lblFornavn.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblFornavn.Name = "lblFornavn"
-        Me.lblFornavn.Size = New System.Drawing.Size(0, 13)
+        Me.lblFornavn.Size = New System.Drawing.Size(0, 17)
         Me.lblFornavn.TabIndex = 629
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(80, 84)
+        Me.Label12.Location = New System.Drawing.Point(107, 103)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(56, 13)
+        Me.Label12.Size = New System.Drawing.Size(73, 17)
         Me.Label12.TabIndex = 628
         Me.Label12.Text = "Etternavn:"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(80, 61)
+        Me.Label13.Location = New System.Drawing.Point(107, 75)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(49, 13)
+        Me.Label13.Size = New System.Drawing.Size(64, 17)
         Me.Label13.TabIndex = 627
         Me.Label13.Text = "Fornavn:"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(366, 1642)
+        Me.Label14.Location = New System.Drawing.Point(488, 2021)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(0, 13)
+        Me.Label14.Size = New System.Drawing.Size(0, 17)
         Me.Label14.TabIndex = 625
         '
         'Panel55
         '
         Me.Panel55.Controls.Add(Me.rb922)
         Me.Panel55.Controls.Add(Me.rb921)
-        Me.Panel55.Location = New System.Drawing.Point(629, 842)
+        Me.Panel55.Location = New System.Drawing.Point(839, 1036)
+        Me.Panel55.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel55.Name = "Panel55"
-        Me.Panel55.Size = New System.Drawing.Size(46, 19)
+        Me.Panel55.Size = New System.Drawing.Size(61, 23)
         Me.Panel55.TabIndex = 606
         '
         'rb922
         '
         Me.rb922.AutoSize = True
-        Me.rb922.Location = New System.Drawing.Point(29, 3)
+        Me.rb922.Location = New System.Drawing.Point(39, 4)
+        Me.rb922.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb922.Name = "rb922"
-        Me.rb922.Size = New System.Drawing.Size(14, 13)
+        Me.rb922.Size = New System.Drawing.Size(17, 16)
         Me.rb922.TabIndex = 4
         Me.rb922.TabStop = True
         Me.rb922.UseVisualStyleBackColor = True
@@ -2626,9 +2784,10 @@ Partial Class Ansattside
         'rb921
         '
         Me.rb921.AutoSize = True
-        Me.rb921.Location = New System.Drawing.Point(5, 3)
+        Me.rb921.Location = New System.Drawing.Point(7, 4)
+        Me.rb921.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb921.Name = "rb921"
-        Me.rb921.Size = New System.Drawing.Size(14, 13)
+        Me.rb921.Size = New System.Drawing.Size(17, 16)
         Me.rb921.TabIndex = 3
         Me.rb921.TabStop = True
         Me.rb921.UseVisualStyleBackColor = True
@@ -2636,9 +2795,10 @@ Partial Class Ansattside
         'Label130
         '
         Me.Label130.AutoSize = True
-        Me.Label130.Location = New System.Drawing.Point(76, 366)
+        Me.Label130.Location = New System.Drawing.Point(101, 450)
+        Me.Label130.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label130.Name = "Label130"
-        Me.Label130.Size = New System.Drawing.Size(136, 13)
+        Me.Label130.Size = New System.Drawing.Size(183, 17)
         Me.Label130.TabIndex = 623
         Me.Label130.Text = "Har du piercing i slimhinne?"
         '
@@ -2646,17 +2806,19 @@ Partial Class Ansattside
         '
         Me.Panel62.Controls.Add(Me.rb162)
         Me.Panel62.Controls.Add(Me.rb161)
-        Me.Panel62.Location = New System.Drawing.Point(319, 363)
+        Me.Panel62.Location = New System.Drawing.Point(425, 447)
+        Me.Panel62.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel62.Name = "Panel62"
-        Me.Panel62.Size = New System.Drawing.Size(46, 19)
+        Me.Panel62.Size = New System.Drawing.Size(61, 23)
         Me.Panel62.TabIndex = 624
         '
         'rb162
         '
         Me.rb162.AutoSize = True
-        Me.rb162.Location = New System.Drawing.Point(29, 3)
+        Me.rb162.Location = New System.Drawing.Point(39, 4)
+        Me.rb162.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb162.Name = "rb162"
-        Me.rb162.Size = New System.Drawing.Size(14, 13)
+        Me.rb162.Size = New System.Drawing.Size(17, 16)
         Me.rb162.TabIndex = 4
         Me.rb162.TabStop = True
         Me.rb162.UseVisualStyleBackColor = True
@@ -2664,9 +2826,10 @@ Partial Class Ansattside
         'rb161
         '
         Me.rb161.AutoSize = True
-        Me.rb161.Location = New System.Drawing.Point(5, 3)
+        Me.rb161.Location = New System.Drawing.Point(7, 4)
+        Me.rb161.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb161.Name = "rb161"
-        Me.rb161.Size = New System.Drawing.Size(14, 13)
+        Me.rb161.Size = New System.Drawing.Size(17, 16)
         Me.rb161.TabIndex = 3
         Me.rb161.TabStop = True
         Me.rb161.UseVisualStyleBackColor = True
@@ -2675,17 +2838,19 @@ Partial Class Ansattside
         '
         Me.Panel61.Controls.Add(Me.rb152)
         Me.Panel61.Controls.Add(Me.rb151)
-        Me.Panel61.Location = New System.Drawing.Point(319, 338)
+        Me.Panel61.Location = New System.Drawing.Point(425, 416)
+        Me.Panel61.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel61.Name = "Panel61"
-        Me.Panel61.Size = New System.Drawing.Size(46, 19)
+        Me.Panel61.Size = New System.Drawing.Size(61, 23)
         Me.Panel61.TabIndex = 622
         '
         'rb152
         '
         Me.rb152.AutoSize = True
-        Me.rb152.Location = New System.Drawing.Point(29, 3)
+        Me.rb152.Location = New System.Drawing.Point(39, 4)
+        Me.rb152.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb152.Name = "rb152"
-        Me.rb152.Size = New System.Drawing.Size(14, 13)
+        Me.rb152.Size = New System.Drawing.Size(17, 16)
         Me.rb152.TabIndex = 4
         Me.rb152.TabStop = True
         Me.rb152.UseVisualStyleBackColor = True
@@ -2693,9 +2858,10 @@ Partial Class Ansattside
         'rb151
         '
         Me.rb151.AutoSize = True
-        Me.rb151.Location = New System.Drawing.Point(5, 3)
+        Me.rb151.Location = New System.Drawing.Point(7, 4)
+        Me.rb151.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb151.Name = "rb151"
-        Me.rb151.Size = New System.Drawing.Size(14, 13)
+        Me.rb151.Size = New System.Drawing.Size(17, 16)
         Me.rb151.TabIndex = 3
         Me.rb151.TabStop = True
         Me.rb151.UseVisualStyleBackColor = True
@@ -2703,9 +2869,10 @@ Partial Class Ansattside
         'Label129
         '
         Me.Label129.AutoSize = True
-        Me.Label129.Location = New System.Drawing.Point(76, 340)
+        Me.Label129.Location = New System.Drawing.Point(101, 418)
+        Me.Label129.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label129.Name = "Label129"
-        Me.Label129.Size = New System.Drawing.Size(205, 13)
+        Me.Label129.Size = New System.Drawing.Size(275, 17)
         Me.Label129.TabIndex = 621
         Me.Label129.Text = "Har du åpne sår, eksem eller hudsykdom?"
         '
@@ -2713,17 +2880,19 @@ Partial Class Ansattside
         '
         Me.Panel48.Controls.Add(Me.rb5152)
         Me.Panel48.Controls.Add(Me.rb5151)
-        Me.Panel48.Location = New System.Drawing.Point(319, 1321)
+        Me.Panel48.Location = New System.Drawing.Point(425, 1626)
+        Me.Panel48.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel48.Name = "Panel48"
-        Me.Panel48.Size = New System.Drawing.Size(46, 19)
+        Me.Panel48.Size = New System.Drawing.Size(61, 23)
         Me.Panel48.TabIndex = 604
         '
         'rb5152
         '
         Me.rb5152.AutoSize = True
-        Me.rb5152.Location = New System.Drawing.Point(29, 3)
+        Me.rb5152.Location = New System.Drawing.Point(39, 4)
+        Me.rb5152.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5152.Name = "rb5152"
-        Me.rb5152.Size = New System.Drawing.Size(14, 13)
+        Me.rb5152.Size = New System.Drawing.Size(17, 16)
         Me.rb5152.TabIndex = 4
         Me.rb5152.TabStop = True
         Me.rb5152.UseVisualStyleBackColor = True
@@ -2731,9 +2900,10 @@ Partial Class Ansattside
         'rb5151
         '
         Me.rb5151.AutoSize = True
-        Me.rb5151.Location = New System.Drawing.Point(5, 3)
+        Me.rb5151.Location = New System.Drawing.Point(7, 4)
+        Me.rb5151.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5151.Name = "rb5151"
-        Me.rb5151.Size = New System.Drawing.Size(14, 13)
+        Me.rb5151.Size = New System.Drawing.Size(17, 16)
         Me.rb5151.TabIndex = 3
         Me.rb5151.TabStop = True
         Me.rb5151.UseVisualStyleBackColor = True
@@ -2742,17 +2912,19 @@ Partial Class Ansattside
         '
         Me.Panel46.Controls.Add(Me.rb9102)
         Me.Panel46.Controls.Add(Me.rb9101)
-        Me.Panel46.Location = New System.Drawing.Point(629, 1131)
+        Me.Panel46.Location = New System.Drawing.Point(839, 1392)
+        Me.Panel46.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel46.Name = "Panel46"
-        Me.Panel46.Size = New System.Drawing.Size(46, 19)
+        Me.Panel46.Size = New System.Drawing.Size(61, 23)
         Me.Panel46.TabIndex = 614
         '
         'rb9102
         '
         Me.rb9102.AutoSize = True
-        Me.rb9102.Location = New System.Drawing.Point(29, 3)
+        Me.rb9102.Location = New System.Drawing.Point(39, 4)
+        Me.rb9102.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb9102.Name = "rb9102"
-        Me.rb9102.Size = New System.Drawing.Size(14, 13)
+        Me.rb9102.Size = New System.Drawing.Size(17, 16)
         Me.rb9102.TabIndex = 4
         Me.rb9102.TabStop = True
         Me.rb9102.UseVisualStyleBackColor = True
@@ -2760,9 +2932,10 @@ Partial Class Ansattside
         'rb9101
         '
         Me.rb9101.AutoSize = True
-        Me.rb9101.Location = New System.Drawing.Point(5, 3)
+        Me.rb9101.Location = New System.Drawing.Point(7, 4)
+        Me.rb9101.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb9101.Name = "rb9101"
-        Me.rb9101.Size = New System.Drawing.Size(14, 13)
+        Me.rb9101.Size = New System.Drawing.Size(17, 16)
         Me.rb9101.TabIndex = 3
         Me.rb9101.TabStop = True
         Me.rb9101.UseVisualStyleBackColor = True
@@ -2771,17 +2944,19 @@ Partial Class Ansattside
         '
         Me.Panel45.Controls.Add(Me.rb5122)
         Me.Panel45.Controls.Add(Me.rb5121)
-        Me.Panel45.Location = New System.Drawing.Point(319, 1236)
+        Me.Panel45.Location = New System.Drawing.Point(425, 1521)
+        Me.Panel45.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel45.Name = "Panel45"
-        Me.Panel45.Size = New System.Drawing.Size(46, 19)
+        Me.Panel45.Size = New System.Drawing.Size(61, 23)
         Me.Panel45.TabIndex = 601
         '
         'rb5122
         '
         Me.rb5122.AutoSize = True
-        Me.rb5122.Location = New System.Drawing.Point(29, 3)
+        Me.rb5122.Location = New System.Drawing.Point(39, 4)
+        Me.rb5122.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5122.Name = "rb5122"
-        Me.rb5122.Size = New System.Drawing.Size(14, 13)
+        Me.rb5122.Size = New System.Drawing.Size(17, 16)
         Me.rb5122.TabIndex = 4
         Me.rb5122.TabStop = True
         Me.rb5122.UseVisualStyleBackColor = True
@@ -2789,9 +2964,10 @@ Partial Class Ansattside
         'rb5121
         '
         Me.rb5121.AutoSize = True
-        Me.rb5121.Location = New System.Drawing.Point(5, 3)
+        Me.rb5121.Location = New System.Drawing.Point(7, 4)
+        Me.rb5121.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5121.Name = "rb5121"
-        Me.rb5121.Size = New System.Drawing.Size(14, 13)
+        Me.rb5121.Size = New System.Drawing.Size(17, 16)
         Me.rb5121.TabIndex = 3
         Me.rb5121.TabStop = True
         Me.rb5121.UseVisualStyleBackColor = True
@@ -2800,17 +2976,19 @@ Partial Class Ansattside
         '
         Me.Panel43.Controls.Add(Me.rb5142)
         Me.Panel43.Controls.Add(Me.rb5141)
-        Me.Panel43.Location = New System.Drawing.Point(319, 1282)
+        Me.Panel43.Location = New System.Drawing.Point(425, 1578)
+        Me.Panel43.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel43.Name = "Panel43"
-        Me.Panel43.Size = New System.Drawing.Size(46, 19)
+        Me.Panel43.Size = New System.Drawing.Size(61, 23)
         Me.Panel43.TabIndex = 603
         '
         'rb5142
         '
         Me.rb5142.AutoSize = True
-        Me.rb5142.Location = New System.Drawing.Point(29, 3)
+        Me.rb5142.Location = New System.Drawing.Point(39, 4)
+        Me.rb5142.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5142.Name = "rb5142"
-        Me.rb5142.Size = New System.Drawing.Size(14, 13)
+        Me.rb5142.Size = New System.Drawing.Size(17, 16)
         Me.rb5142.TabIndex = 4
         Me.rb5142.TabStop = True
         Me.rb5142.UseVisualStyleBackColor = True
@@ -2818,9 +2996,10 @@ Partial Class Ansattside
         'rb5141
         '
         Me.rb5141.AutoSize = True
-        Me.rb5141.Location = New System.Drawing.Point(5, 3)
+        Me.rb5141.Location = New System.Drawing.Point(7, 4)
+        Me.rb5141.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5141.Name = "rb5141"
-        Me.rb5141.Size = New System.Drawing.Size(14, 13)
+        Me.rb5141.Size = New System.Drawing.Size(17, 16)
         Me.rb5141.TabIndex = 3
         Me.rb5141.TabStop = True
         Me.rb5141.UseVisualStyleBackColor = True
@@ -2829,17 +3008,19 @@ Partial Class Ansattside
         '
         Me.Panel42.Controls.Add(Me.rb592)
         Me.Panel42.Controls.Add(Me.rb591)
-        Me.Panel42.Location = New System.Drawing.Point(319, 1167)
+        Me.Panel42.Location = New System.Drawing.Point(425, 1436)
+        Me.Panel42.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel42.Name = "Panel42"
-        Me.Panel42.Size = New System.Drawing.Size(46, 19)
+        Me.Panel42.Size = New System.Drawing.Size(61, 23)
         Me.Panel42.TabIndex = 598
         '
         'rb592
         '
         Me.rb592.AutoSize = True
-        Me.rb592.Location = New System.Drawing.Point(29, 3)
+        Me.rb592.Location = New System.Drawing.Point(39, 4)
+        Me.rb592.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb592.Name = "rb592"
-        Me.rb592.Size = New System.Drawing.Size(14, 13)
+        Me.rb592.Size = New System.Drawing.Size(17, 16)
         Me.rb592.TabIndex = 4
         Me.rb592.TabStop = True
         Me.rb592.UseVisualStyleBackColor = True
@@ -2847,9 +3028,10 @@ Partial Class Ansattside
         'rb591
         '
         Me.rb591.AutoSize = True
-        Me.rb591.Location = New System.Drawing.Point(5, 3)
+        Me.rb591.Location = New System.Drawing.Point(7, 4)
+        Me.rb591.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb591.Name = "rb591"
-        Me.rb591.Size = New System.Drawing.Size(14, 13)
+        Me.rb591.Size = New System.Drawing.Size(17, 16)
         Me.rb591.TabIndex = 3
         Me.rb591.TabStop = True
         Me.rb591.UseVisualStyleBackColor = True
@@ -2858,17 +3040,19 @@ Partial Class Ansattside
         '
         Me.Panel44.Controls.Add(Me.rb5132)
         Me.Panel44.Controls.Add(Me.rb5131)
-        Me.Panel44.Location = New System.Drawing.Point(319, 1259)
+        Me.Panel44.Location = New System.Drawing.Point(425, 1550)
+        Me.Panel44.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel44.Name = "Panel44"
-        Me.Panel44.Size = New System.Drawing.Size(46, 19)
+        Me.Panel44.Size = New System.Drawing.Size(61, 23)
         Me.Panel44.TabIndex = 602
         '
         'rb5132
         '
         Me.rb5132.AutoSize = True
-        Me.rb5132.Location = New System.Drawing.Point(29, 3)
+        Me.rb5132.Location = New System.Drawing.Point(39, 4)
+        Me.rb5132.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5132.Name = "rb5132"
-        Me.rb5132.Size = New System.Drawing.Size(14, 13)
+        Me.rb5132.Size = New System.Drawing.Size(17, 16)
         Me.rb5132.TabIndex = 4
         Me.rb5132.TabStop = True
         Me.rb5132.UseVisualStyleBackColor = True
@@ -2876,9 +3060,10 @@ Partial Class Ansattside
         'rb5131
         '
         Me.rb5131.AutoSize = True
-        Me.rb5131.Location = New System.Drawing.Point(5, 3)
+        Me.rb5131.Location = New System.Drawing.Point(7, 4)
+        Me.rb5131.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb5131.Name = "rb5131"
-        Me.rb5131.Size = New System.Drawing.Size(14, 13)
+        Me.rb5131.Size = New System.Drawing.Size(17, 16)
         Me.rb5131.TabIndex = 3
         Me.rb5131.TabStop = True
         Me.rb5131.UseVisualStyleBackColor = True
@@ -2887,17 +3072,19 @@ Partial Class Ansattside
         '
         Me.Panel47.Controls.Add(Me.rb992)
         Me.Panel47.Controls.Add(Me.rb991)
-        Me.Panel47.Location = New System.Drawing.Point(629, 1096)
+        Me.Panel47.Location = New System.Drawing.Point(839, 1349)
+        Me.Panel47.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel47.Name = "Panel47"
-        Me.Panel47.Size = New System.Drawing.Size(46, 19)
+        Me.Panel47.Size = New System.Drawing.Size(61, 23)
         Me.Panel47.TabIndex = 613
         '
         'rb992
         '
         Me.rb992.AutoSize = True
-        Me.rb992.Location = New System.Drawing.Point(29, 3)
+        Me.rb992.Location = New System.Drawing.Point(39, 4)
+        Me.rb992.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb992.Name = "rb992"
-        Me.rb992.Size = New System.Drawing.Size(14, 13)
+        Me.rb992.Size = New System.Drawing.Size(17, 16)
         Me.rb992.TabIndex = 4
         Me.rb992.TabStop = True
         Me.rb992.UseVisualStyleBackColor = True
@@ -2905,9 +3092,10 @@ Partial Class Ansattside
         'rb991
         '
         Me.rb991.AutoSize = True
-        Me.rb991.Location = New System.Drawing.Point(5, 3)
+        Me.rb991.Location = New System.Drawing.Point(7, 4)
+        Me.rb991.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb991.Name = "rb991"
-        Me.rb991.Size = New System.Drawing.Size(14, 13)
+        Me.rb991.Size = New System.Drawing.Size(17, 16)
         Me.rb991.TabIndex = 3
         Me.rb991.TabStop = True
         Me.rb991.UseVisualStyleBackColor = True
@@ -2916,17 +3104,19 @@ Partial Class Ansattside
         '
         Me.Panel50.Controls.Add(Me.rb972)
         Me.Panel50.Controls.Add(Me.rb971)
-        Me.Panel50.Location = New System.Drawing.Point(629, 1006)
+        Me.Panel50.Location = New System.Drawing.Point(839, 1238)
+        Me.Panel50.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel50.Name = "Panel50"
-        Me.Panel50.Size = New System.Drawing.Size(46, 19)
+        Me.Panel50.Size = New System.Drawing.Size(61, 23)
         Me.Panel50.TabIndex = 611
         '
         'rb972
         '
         Me.rb972.AutoSize = True
-        Me.rb972.Location = New System.Drawing.Point(29, 3)
+        Me.rb972.Location = New System.Drawing.Point(39, 4)
+        Me.rb972.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb972.Name = "rb972"
-        Me.rb972.Size = New System.Drawing.Size(14, 13)
+        Me.rb972.Size = New System.Drawing.Size(17, 16)
         Me.rb972.TabIndex = 4
         Me.rb972.TabStop = True
         Me.rb972.UseVisualStyleBackColor = True
@@ -2934,9 +3124,10 @@ Partial Class Ansattside
         'rb971
         '
         Me.rb971.AutoSize = True
-        Me.rb971.Location = New System.Drawing.Point(5, 3)
+        Me.rb971.Location = New System.Drawing.Point(7, 4)
+        Me.rb971.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb971.Name = "rb971"
-        Me.rb971.Size = New System.Drawing.Size(14, 13)
+        Me.rb971.Size = New System.Drawing.Size(17, 16)
         Me.rb971.TabIndex = 3
         Me.rb971.TabStop = True
         Me.rb971.UseVisualStyleBackColor = True
@@ -2945,17 +3136,19 @@ Partial Class Ansattside
         '
         Me.Panel54.Controls.Add(Me.rb932)
         Me.Panel54.Controls.Add(Me.rb931)
-        Me.Panel54.Location = New System.Drawing.Point(629, 875)
+        Me.Panel54.Location = New System.Drawing.Point(839, 1077)
+        Me.Panel54.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(46, 19)
+        Me.Panel54.Size = New System.Drawing.Size(61, 23)
         Me.Panel54.TabIndex = 607
         '
         'rb932
         '
         Me.rb932.AutoSize = True
-        Me.rb932.Location = New System.Drawing.Point(29, 3)
+        Me.rb932.Location = New System.Drawing.Point(39, 4)
+        Me.rb932.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb932.Name = "rb932"
-        Me.rb932.Size = New System.Drawing.Size(14, 13)
+        Me.rb932.Size = New System.Drawing.Size(17, 16)
         Me.rb932.TabIndex = 4
         Me.rb932.TabStop = True
         Me.rb932.UseVisualStyleBackColor = True
@@ -2963,9 +3156,10 @@ Partial Class Ansattside
         'rb931
         '
         Me.rb931.AutoSize = True
-        Me.rb931.Location = New System.Drawing.Point(5, 3)
+        Me.rb931.Location = New System.Drawing.Point(7, 4)
+        Me.rb931.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb931.Name = "rb931"
-        Me.rb931.Size = New System.Drawing.Size(14, 13)
+        Me.rb931.Size = New System.Drawing.Size(17, 16)
         Me.rb931.TabIndex = 3
         Me.rb931.TabStop = True
         Me.rb931.UseVisualStyleBackColor = True
@@ -2974,17 +3168,19 @@ Partial Class Ansattside
         '
         Me.Panel52.Controls.Add(Me.rb952)
         Me.Panel52.Controls.Add(Me.rb951)
-        Me.Panel52.Location = New System.Drawing.Point(629, 948)
+        Me.Panel52.Location = New System.Drawing.Point(839, 1167)
+        Me.Panel52.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel52.Name = "Panel52"
-        Me.Panel52.Size = New System.Drawing.Size(46, 19)
+        Me.Panel52.Size = New System.Drawing.Size(61, 23)
         Me.Panel52.TabIndex = 609
         '
         'rb952
         '
         Me.rb952.AutoSize = True
-        Me.rb952.Location = New System.Drawing.Point(29, 3)
+        Me.rb952.Location = New System.Drawing.Point(39, 4)
+        Me.rb952.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb952.Name = "rb952"
-        Me.rb952.Size = New System.Drawing.Size(14, 13)
+        Me.rb952.Size = New System.Drawing.Size(17, 16)
         Me.rb952.TabIndex = 4
         Me.rb952.TabStop = True
         Me.rb952.UseVisualStyleBackColor = True
@@ -2992,9 +3188,10 @@ Partial Class Ansattside
         'rb951
         '
         Me.rb951.AutoSize = True
-        Me.rb951.Location = New System.Drawing.Point(5, 3)
+        Me.rb951.Location = New System.Drawing.Point(7, 4)
+        Me.rb951.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb951.Name = "rb951"
-        Me.rb951.Size = New System.Drawing.Size(14, 13)
+        Me.rb951.Size = New System.Drawing.Size(17, 16)
         Me.rb951.TabIndex = 3
         Me.rb951.TabStop = True
         Me.rb951.UseVisualStyleBackColor = True
@@ -3003,17 +3200,19 @@ Partial Class Ansattside
         '
         Me.Panel49.Controls.Add(Me.rb982)
         Me.Panel49.Controls.Add(Me.rb981)
-        Me.Panel49.Location = New System.Drawing.Point(629, 1049)
+        Me.Panel49.Location = New System.Drawing.Point(839, 1291)
+        Me.Panel49.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel49.Name = "Panel49"
-        Me.Panel49.Size = New System.Drawing.Size(46, 19)
+        Me.Panel49.Size = New System.Drawing.Size(61, 23)
         Me.Panel49.TabIndex = 612
         '
         'rb982
         '
         Me.rb982.AutoSize = True
-        Me.rb982.Location = New System.Drawing.Point(29, 3)
+        Me.rb982.Location = New System.Drawing.Point(39, 4)
+        Me.rb982.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb982.Name = "rb982"
-        Me.rb982.Size = New System.Drawing.Size(14, 13)
+        Me.rb982.Size = New System.Drawing.Size(17, 16)
         Me.rb982.TabIndex = 4
         Me.rb982.TabStop = True
         Me.rb982.UseVisualStyleBackColor = True
@@ -3021,9 +3220,10 @@ Partial Class Ansattside
         'rb981
         '
         Me.rb981.AutoSize = True
-        Me.rb981.Location = New System.Drawing.Point(5, 3)
+        Me.rb981.Location = New System.Drawing.Point(7, 4)
+        Me.rb981.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb981.Name = "rb981"
-        Me.rb981.Size = New System.Drawing.Size(14, 13)
+        Me.rb981.Size = New System.Drawing.Size(17, 16)
         Me.rb981.TabIndex = 3
         Me.rb981.TabStop = True
         Me.rb981.UseVisualStyleBackColor = True
@@ -3032,17 +3232,19 @@ Partial Class Ansattside
         '
         Me.Panel53.Controls.Add(Me.rb942)
         Me.Panel53.Controls.Add(Me.rb941)
-        Me.Panel53.Location = New System.Drawing.Point(629, 913)
+        Me.Panel53.Location = New System.Drawing.Point(839, 1124)
+        Me.Panel53.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(46, 19)
+        Me.Panel53.Size = New System.Drawing.Size(61, 23)
         Me.Panel53.TabIndex = 608
         '
         'rb942
         '
         Me.rb942.AutoSize = True
-        Me.rb942.Location = New System.Drawing.Point(29, 3)
+        Me.rb942.Location = New System.Drawing.Point(39, 4)
+        Me.rb942.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb942.Name = "rb942"
-        Me.rb942.Size = New System.Drawing.Size(14, 13)
+        Me.rb942.Size = New System.Drawing.Size(17, 16)
         Me.rb942.TabIndex = 4
         Me.rb942.TabStop = True
         Me.rb942.UseVisualStyleBackColor = True
@@ -3050,9 +3252,10 @@ Partial Class Ansattside
         'rb941
         '
         Me.rb941.AutoSize = True
-        Me.rb941.Location = New System.Drawing.Point(5, 3)
+        Me.rb941.Location = New System.Drawing.Point(7, 4)
+        Me.rb941.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb941.Name = "rb941"
-        Me.rb941.Size = New System.Drawing.Size(14, 13)
+        Me.rb941.Size = New System.Drawing.Size(17, 16)
         Me.rb941.TabIndex = 3
         Me.rb941.TabStop = True
         Me.rb941.UseVisualStyleBackColor = True
@@ -3061,17 +3264,19 @@ Partial Class Ansattside
         '
         Me.Panel51.Controls.Add(Me.rb962)
         Me.Panel51.Controls.Add(Me.rb961)
-        Me.Panel51.Location = New System.Drawing.Point(629, 983)
+        Me.Panel51.Location = New System.Drawing.Point(839, 1210)
+        Me.Panel51.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel51.Name = "Panel51"
-        Me.Panel51.Size = New System.Drawing.Size(46, 19)
+        Me.Panel51.Size = New System.Drawing.Size(61, 23)
         Me.Panel51.TabIndex = 610
         '
         'rb962
         '
         Me.rb962.AutoSize = True
-        Me.rb962.Location = New System.Drawing.Point(29, 3)
+        Me.rb962.Location = New System.Drawing.Point(39, 4)
+        Me.rb962.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb962.Name = "rb962"
-        Me.rb962.Size = New System.Drawing.Size(14, 13)
+        Me.rb962.Size = New System.Drawing.Size(17, 16)
         Me.rb962.TabIndex = 4
         Me.rb962.TabStop = True
         Me.rb962.UseVisualStyleBackColor = True
@@ -3079,9 +3284,10 @@ Partial Class Ansattside
         'rb961
         '
         Me.rb961.AutoSize = True
-        Me.rb961.Location = New System.Drawing.Point(5, 3)
+        Me.rb961.Location = New System.Drawing.Point(7, 4)
+        Me.rb961.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb961.Name = "rb961"
-        Me.rb961.Size = New System.Drawing.Size(14, 13)
+        Me.rb961.Size = New System.Drawing.Size(17, 16)
         Me.rb961.TabIndex = 3
         Me.rb961.TabStop = True
         Me.rb961.UseVisualStyleBackColor = True
@@ -3090,17 +3296,19 @@ Partial Class Ansattside
         '
         Me.Panel15.Controls.Add(Me.rb212)
         Me.Panel15.Controls.Add(Me.rb211)
-        Me.Panel15.Location = New System.Drawing.Point(319, 424)
+        Me.Panel15.Location = New System.Drawing.Point(425, 522)
+        Me.Panel15.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(46, 19)
+        Me.Panel15.Size = New System.Drawing.Size(61, 23)
         Me.Panel15.TabIndex = 565
         '
         'rb212
         '
         Me.rb212.AutoSize = True
-        Me.rb212.Location = New System.Drawing.Point(29, 3)
+        Me.rb212.Location = New System.Drawing.Point(39, 4)
+        Me.rb212.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb212.Name = "rb212"
-        Me.rb212.Size = New System.Drawing.Size(14, 13)
+        Me.rb212.Size = New System.Drawing.Size(17, 16)
         Me.rb212.TabIndex = 4
         Me.rb212.TabStop = True
         Me.rb212.UseVisualStyleBackColor = True
@@ -3108,9 +3316,10 @@ Partial Class Ansattside
         'rb211
         '
         Me.rb211.AutoSize = True
-        Me.rb211.Location = New System.Drawing.Point(5, 3)
+        Me.rb211.Location = New System.Drawing.Point(7, 4)
+        Me.rb211.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb211.Name = "rb211"
-        Me.rb211.Size = New System.Drawing.Size(14, 13)
+        Me.rb211.Size = New System.Drawing.Size(17, 16)
         Me.rb211.TabIndex = 3
         Me.rb211.TabStop = True
         Me.rb211.UseVisualStyleBackColor = True
@@ -3119,17 +3328,19 @@ Partial Class Ansattside
         '
         Me.Panel10.Controls.Add(Me.rb122)
         Me.Panel10.Controls.Add(Me.rb121)
-        Me.Panel10.Location = New System.Drawing.Point(319, 252)
+        Me.Panel10.Location = New System.Drawing.Point(425, 310)
+        Me.Panel10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(46, 19)
+        Me.Panel10.Size = New System.Drawing.Size(61, 23)
         Me.Panel10.TabIndex = 569
         '
         'rb122
         '
         Me.rb122.AutoSize = True
-        Me.rb122.Location = New System.Drawing.Point(29, 3)
+        Me.rb122.Location = New System.Drawing.Point(39, 4)
+        Me.rb122.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb122.Name = "rb122"
-        Me.rb122.Size = New System.Drawing.Size(14, 13)
+        Me.rb122.Size = New System.Drawing.Size(17, 16)
         Me.rb122.TabIndex = 4
         Me.rb122.TabStop = True
         Me.rb122.UseVisualStyleBackColor = True
@@ -3137,9 +3348,10 @@ Partial Class Ansattside
         'rb121
         '
         Me.rb121.AutoSize = True
-        Me.rb121.Location = New System.Drawing.Point(5, 3)
+        Me.rb121.Location = New System.Drawing.Point(7, 4)
+        Me.rb121.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb121.Name = "rb121"
-        Me.rb121.Size = New System.Drawing.Size(14, 13)
+        Me.rb121.Size = New System.Drawing.Size(17, 16)
         Me.rb121.TabIndex = 3
         Me.rb121.TabStop = True
         Me.rb121.UseVisualStyleBackColor = True
@@ -3148,17 +3360,19 @@ Partial Class Ansattside
         '
         Me.Panel11.Controls.Add(Me.rb112)
         Me.Panel11.Controls.Add(Me.rb111)
-        Me.Panel11.Location = New System.Drawing.Point(319, 230)
+        Me.Panel11.Location = New System.Drawing.Point(425, 283)
+        Me.Panel11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(46, 19)
+        Me.Panel11.Size = New System.Drawing.Size(61, 23)
         Me.Panel11.TabIndex = 566
         '
         'rb112
         '
         Me.rb112.AutoSize = True
-        Me.rb112.Location = New System.Drawing.Point(29, 3)
+        Me.rb112.Location = New System.Drawing.Point(39, 4)
+        Me.rb112.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb112.Name = "rb112"
-        Me.rb112.Size = New System.Drawing.Size(14, 13)
+        Me.rb112.Size = New System.Drawing.Size(17, 16)
         Me.rb112.TabIndex = 4
         Me.rb112.TabStop = True
         Me.rb112.UseVisualStyleBackColor = True
@@ -3166,9 +3380,10 @@ Partial Class Ansattside
         'rb111
         '
         Me.rb111.AutoSize = True
-        Me.rb111.Location = New System.Drawing.Point(5, 3)
+        Me.rb111.Location = New System.Drawing.Point(7, 4)
+        Me.rb111.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb111.Name = "rb111"
-        Me.rb111.Size = New System.Drawing.Size(14, 13)
+        Me.rb111.Size = New System.Drawing.Size(17, 16)
         Me.rb111.TabIndex = 3
         Me.rb111.TabStop = True
         Me.rb111.UseVisualStyleBackColor = True
@@ -3177,17 +3392,19 @@ Partial Class Ansattside
         '
         Me.Panel7.Controls.Add(Me.rb632)
         Me.Panel7.Controls.Add(Me.rb631)
-        Me.Panel7.Location = New System.Drawing.Point(629, 291)
+        Me.Panel7.Location = New System.Drawing.Point(839, 358)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(46, 19)
+        Me.Panel7.Size = New System.Drawing.Size(61, 23)
         Me.Panel7.TabIndex = 564
         '
         'rb632
         '
         Me.rb632.AutoSize = True
-        Me.rb632.Location = New System.Drawing.Point(29, 3)
+        Me.rb632.Location = New System.Drawing.Point(39, 4)
+        Me.rb632.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb632.Name = "rb632"
-        Me.rb632.Size = New System.Drawing.Size(14, 13)
+        Me.rb632.Size = New System.Drawing.Size(17, 16)
         Me.rb632.TabIndex = 4
         Me.rb632.TabStop = True
         Me.rb632.UseVisualStyleBackColor = True
@@ -3195,9 +3412,10 @@ Partial Class Ansattside
         'rb631
         '
         Me.rb631.AutoSize = True
-        Me.rb631.Location = New System.Drawing.Point(5, 3)
+        Me.rb631.Location = New System.Drawing.Point(7, 4)
+        Me.rb631.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb631.Name = "rb631"
-        Me.rb631.Size = New System.Drawing.Size(14, 13)
+        Me.rb631.Size = New System.Drawing.Size(17, 16)
         Me.rb631.TabIndex = 3
         Me.rb631.TabStop = True
         Me.rb631.UseVisualStyleBackColor = True
@@ -3206,17 +3424,19 @@ Partial Class Ansattside
         '
         Me.Panel6.Controls.Add(Me.rb672)
         Me.Panel6.Controls.Add(Me.rb671)
-        Me.Panel6.Location = New System.Drawing.Point(629, 468)
+        Me.Panel6.Location = New System.Drawing.Point(839, 576)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(46, 19)
+        Me.Panel6.Size = New System.Drawing.Size(61, 23)
         Me.Panel6.TabIndex = 563
         '
         'rb672
         '
         Me.rb672.AutoSize = True
-        Me.rb672.Location = New System.Drawing.Point(29, 3)
+        Me.rb672.Location = New System.Drawing.Point(39, 4)
+        Me.rb672.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb672.Name = "rb672"
-        Me.rb672.Size = New System.Drawing.Size(14, 13)
+        Me.rb672.Size = New System.Drawing.Size(17, 16)
         Me.rb672.TabIndex = 4
         Me.rb672.TabStop = True
         Me.rb672.UseVisualStyleBackColor = True
@@ -3224,9 +3444,10 @@ Partial Class Ansattside
         'rb671
         '
         Me.rb671.AutoSize = True
-        Me.rb671.Location = New System.Drawing.Point(5, 3)
+        Me.rb671.Location = New System.Drawing.Point(7, 4)
+        Me.rb671.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb671.Name = "rb671"
-        Me.rb671.Size = New System.Drawing.Size(14, 13)
+        Me.rb671.Size = New System.Drawing.Size(17, 16)
         Me.rb671.TabIndex = 3
         Me.rb671.TabStop = True
         Me.rb671.UseVisualStyleBackColor = True
@@ -3235,17 +3456,19 @@ Partial Class Ansattside
         '
         Me.Panel5.Controls.Add(Me.rb662)
         Me.Panel5.Controls.Add(Me.rb661)
-        Me.Panel5.Location = New System.Drawing.Point(629, 440)
+        Me.Panel5.Location = New System.Drawing.Point(839, 542)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(46, 19)
+        Me.Panel5.Size = New System.Drawing.Size(61, 23)
         Me.Panel5.TabIndex = 562
         '
         'rb662
         '
         Me.rb662.AutoSize = True
-        Me.rb662.Location = New System.Drawing.Point(29, 3)
+        Me.rb662.Location = New System.Drawing.Point(39, 4)
+        Me.rb662.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb662.Name = "rb662"
-        Me.rb662.Size = New System.Drawing.Size(14, 13)
+        Me.rb662.Size = New System.Drawing.Size(17, 16)
         Me.rb662.TabIndex = 4
         Me.rb662.TabStop = True
         Me.rb662.UseVisualStyleBackColor = True
@@ -3253,9 +3476,10 @@ Partial Class Ansattside
         'rb661
         '
         Me.rb661.AutoSize = True
-        Me.rb661.Location = New System.Drawing.Point(5, 3)
+        Me.rb661.Location = New System.Drawing.Point(7, 4)
+        Me.rb661.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb661.Name = "rb661"
-        Me.rb661.Size = New System.Drawing.Size(14, 13)
+        Me.rb661.Size = New System.Drawing.Size(17, 16)
         Me.rb661.TabIndex = 3
         Me.rb661.TabStop = True
         Me.rb661.UseVisualStyleBackColor = True
@@ -3264,17 +3488,19 @@ Partial Class Ansattside
         '
         Me.Panel4.Controls.Add(Me.rb652)
         Me.Panel4.Controls.Add(Me.rb651)
-        Me.Panel4.Location = New System.Drawing.Point(629, 395)
+        Me.Panel4.Location = New System.Drawing.Point(839, 486)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(46, 19)
+        Me.Panel4.Size = New System.Drawing.Size(61, 23)
         Me.Panel4.TabIndex = 561
         '
         'rb652
         '
         Me.rb652.AutoSize = True
-        Me.rb652.Location = New System.Drawing.Point(29, 3)
+        Me.rb652.Location = New System.Drawing.Point(39, 4)
+        Me.rb652.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb652.Name = "rb652"
-        Me.rb652.Size = New System.Drawing.Size(14, 13)
+        Me.rb652.Size = New System.Drawing.Size(17, 16)
         Me.rb652.TabIndex = 4
         Me.rb652.TabStop = True
         Me.rb652.UseVisualStyleBackColor = True
@@ -3282,9 +3508,10 @@ Partial Class Ansattside
         'rb651
         '
         Me.rb651.AutoSize = True
-        Me.rb651.Location = New System.Drawing.Point(5, 3)
+        Me.rb651.Location = New System.Drawing.Point(7, 4)
+        Me.rb651.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb651.Name = "rb651"
-        Me.rb651.Size = New System.Drawing.Size(14, 13)
+        Me.rb651.Size = New System.Drawing.Size(17, 16)
         Me.rb651.TabIndex = 3
         Me.rb651.TabStop = True
         Me.rb651.UseVisualStyleBackColor = True
@@ -3293,17 +3520,19 @@ Partial Class Ansattside
         '
         Me.Panel3.Controls.Add(Me.rb642)
         Me.Panel3.Controls.Add(Me.rb641)
-        Me.Panel3.Location = New System.Drawing.Point(629, 334)
+        Me.Panel3.Location = New System.Drawing.Point(839, 411)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(46, 19)
+        Me.Panel3.Size = New System.Drawing.Size(61, 23)
         Me.Panel3.TabIndex = 560
         '
         'rb642
         '
         Me.rb642.AutoSize = True
-        Me.rb642.Location = New System.Drawing.Point(29, 3)
+        Me.rb642.Location = New System.Drawing.Point(39, 4)
+        Me.rb642.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb642.Name = "rb642"
-        Me.rb642.Size = New System.Drawing.Size(14, 13)
+        Me.rb642.Size = New System.Drawing.Size(17, 16)
         Me.rb642.TabIndex = 4
         Me.rb642.TabStop = True
         Me.rb642.UseVisualStyleBackColor = True
@@ -3311,9 +3540,10 @@ Partial Class Ansattside
         'rb641
         '
         Me.rb641.AutoSize = True
-        Me.rb641.Location = New System.Drawing.Point(5, 3)
+        Me.rb641.Location = New System.Drawing.Point(7, 4)
+        Me.rb641.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb641.Name = "rb641"
-        Me.rb641.Size = New System.Drawing.Size(14, 13)
+        Me.rb641.Size = New System.Drawing.Size(17, 16)
         Me.rb641.TabIndex = 3
         Me.rb641.TabStop = True
         Me.rb641.UseVisualStyleBackColor = True
@@ -3322,17 +3552,19 @@ Partial Class Ansattside
         '
         Me.Panel2.Controls.Add(Me.rb622)
         Me.Panel2.Controls.Add(Me.rb621)
-        Me.Panel2.Location = New System.Drawing.Point(629, 266)
+        Me.Panel2.Location = New System.Drawing.Point(839, 327)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(46, 19)
+        Me.Panel2.Size = New System.Drawing.Size(61, 23)
         Me.Panel2.TabIndex = 559
         '
         'rb622
         '
         Me.rb622.AutoSize = True
-        Me.rb622.Location = New System.Drawing.Point(29, 3)
+        Me.rb622.Location = New System.Drawing.Point(39, 4)
+        Me.rb622.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb622.Name = "rb622"
-        Me.rb622.Size = New System.Drawing.Size(14, 13)
+        Me.rb622.Size = New System.Drawing.Size(17, 16)
         Me.rb622.TabIndex = 4
         Me.rb622.TabStop = True
         Me.rb622.UseVisualStyleBackColor = True
@@ -3340,9 +3572,10 @@ Partial Class Ansattside
         'rb621
         '
         Me.rb621.AutoSize = True
-        Me.rb621.Location = New System.Drawing.Point(5, 3)
+        Me.rb621.Location = New System.Drawing.Point(7, 4)
+        Me.rb621.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb621.Name = "rb621"
-        Me.rb621.Size = New System.Drawing.Size(14, 13)
+        Me.rb621.Size = New System.Drawing.Size(17, 16)
         Me.rb621.TabIndex = 3
         Me.rb621.TabStop = True
         Me.rb621.UseVisualStyleBackColor = True
@@ -3351,17 +3584,19 @@ Partial Class Ansattside
         '
         Me.Panel1.Controls.Add(Me.rb612)
         Me.Panel1.Controls.Add(Me.rb611)
-        Me.Panel1.Location = New System.Drawing.Point(629, 230)
+        Me.Panel1.Location = New System.Drawing.Point(839, 283)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(46, 19)
+        Me.Panel1.Size = New System.Drawing.Size(61, 23)
         Me.Panel1.TabIndex = 558
         '
         'rb612
         '
         Me.rb612.AutoSize = True
-        Me.rb612.Location = New System.Drawing.Point(29, 3)
+        Me.rb612.Location = New System.Drawing.Point(39, 4)
+        Me.rb612.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb612.Name = "rb612"
-        Me.rb612.Size = New System.Drawing.Size(14, 13)
+        Me.rb612.Size = New System.Drawing.Size(17, 16)
         Me.rb612.TabIndex = 4
         Me.rb612.TabStop = True
         Me.rb612.UseVisualStyleBackColor = True
@@ -3369,9 +3604,10 @@ Partial Class Ansattside
         'rb611
         '
         Me.rb611.AutoSize = True
-        Me.rb611.Location = New System.Drawing.Point(5, 3)
+        Me.rb611.Location = New System.Drawing.Point(7, 4)
+        Me.rb611.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rb611.Name = "rb611"
-        Me.rb611.Size = New System.Drawing.Size(14, 13)
+        Me.rb611.Size = New System.Drawing.Size(17, 16)
         Me.rb611.TabIndex = 3
         Me.rb611.TabStop = True
         Me.rb611.UseVisualStyleBackColor = True
@@ -3379,189 +3615,210 @@ Partial Class Ansattside
         'Label123
         '
         Me.Label123.AutoSize = True
-        Me.Label123.Location = New System.Drawing.Point(76, 1334)
+        Me.Label123.Location = New System.Drawing.Point(101, 1642)
+        Me.Label123.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label123.Name = "Label123"
-        Me.Label123.Size = New System.Drawing.Size(44, 13)
+        Me.Label123.Size = New System.Drawing.Size(58, 17)
         Me.Label123.TabIndex = 556
         Me.Label123.Text = "for sex?"
         '
         'Label124
         '
         Me.Label124.AutoSize = True
-        Me.Label124.Location = New System.Drawing.Point(76, 1321)
+        Me.Label124.Location = New System.Drawing.Point(101, 1626)
+        Me.Label124.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label124.Name = "Label124"
-        Me.Label124.Size = New System.Drawing.Size(214, 13)
+        Me.Label124.Size = New System.Drawing.Size(287, 17)
         Me.Label124.TabIndex = 555
         Me.Label124.Text = "Mottat penger eller narkotika som gjenytelse"
         '
         'Label121
         '
         Me.Label121.AutoSize = True
-        Me.Label121.Location = New System.Drawing.Point(76, 1297)
+        Me.Label121.Location = New System.Drawing.Point(101, 1596)
+        Me.Label121.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label121.Name = "Label121"
-        Me.Label121.Size = New System.Drawing.Size(72, 13)
+        Me.Label121.Size = New System.Drawing.Size(98, 17)
         Me.Label121.TabIndex = 554
         Me.Label121.Text = "som sprøyter?"
         '
         'Label122
         '
         Me.Label122.AutoSize = True
-        Me.Label122.Location = New System.Drawing.Point(76, 1284)
+        Me.Label122.Location = New System.Drawing.Point(101, 1580)
+        Me.Label122.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label122.Name = "Label122"
-        Me.Label122.Size = New System.Drawing.Size(198, 13)
+        Me.Label122.Size = New System.Drawing.Size(268, 17)
         Me.Label122.TabIndex = 553
         Me.Label122.Text = "Brukt dopingmidler eller narkotiske midler"
         '
         'Label120
         '
         Me.Label120.AutoSize = True
-        Me.Label120.Location = New System.Drawing.Point(76, 1260)
+        Me.Label120.Location = New System.Drawing.Point(101, 1551)
+        Me.Label120.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label120.Name = "Label120"
-        Me.Label120.Size = New System.Drawing.Size(213, 13)
+        Me.Label120.Size = New System.Drawing.Size(283, 17)
         Me.Label120.TabIndex = 552
         Me.Label120.Text = "Hatt alvorlig sykdom som ikke er nevnt her?"
         '
         'Label119
         '
         Me.Label119.AutoSize = True
-        Me.Label119.Location = New System.Drawing.Point(76, 1238)
+        Me.Label119.Location = New System.Drawing.Point(101, 1524)
+        Me.Label119.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(60, 13)
+        Me.Label119.Size = New System.Drawing.Size(80, 17)
         Me.Label119.TabIndex = 551
         Me.Label119.Text = "Hatt syfilis?"
         '
         'Label118
         '
         Me.Label118.AutoSize = True
-        Me.Label118.Location = New System.Drawing.Point(76, 1215)
+        Me.Label118.Location = New System.Drawing.Point(101, 1495)
+        Me.Label118.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label118.Name = "Label118"
-        Me.Label118.Size = New System.Drawing.Size(136, 13)
+        Me.Label118.Size = New System.Drawing.Size(183, 17)
         Me.Label118.TabIndex = 550
         Me.Label118.Text = "Fått hornhinnetransplantat?"
         '
         'Label117
         '
         Me.Label117.AutoSize = True
-        Me.Label117.Location = New System.Drawing.Point(76, 1192)
+        Me.Label117.Location = New System.Drawing.Point(101, 1467)
+        Me.Label117.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label117.Name = "Label117"
-        Me.Label117.Size = New System.Drawing.Size(95, 13)
+        Me.Label117.Size = New System.Drawing.Size(125, 17)
         Me.Label117.TabIndex = 549
         Me.Label117.Text = "Fått veksthormon?"
         '
         'Label116
         '
         Me.Label116.AutoSize = True
-        Me.Label116.Location = New System.Drawing.Point(76, 1168)
+        Me.Label116.Location = New System.Drawing.Point(101, 1438)
+        Me.Label116.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label116.Name = "Label116"
-        Me.Label116.Size = New System.Drawing.Size(101, 13)
+        Me.Label116.Size = New System.Drawing.Size(135, 17)
         Me.Label116.TabIndex = 548
         Me.Label116.Text = "Fått blodoverføring?"
         '
         'Label115
         '
         Me.Label115.AutoSize = True
-        Me.Label115.Location = New System.Drawing.Point(76, 1144)
+        Me.Label115.Location = New System.Drawing.Point(101, 1408)
+        Me.Label115.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label115.Name = "Label115"
-        Me.Label115.Size = New System.Drawing.Size(239, 13)
+        Me.Label115.Size = New System.Drawing.Size(318, 17)
         Me.Label115.TabIndex = 547
         Me.Label115.Text = "Hatt positiv prøve for Hepatitt eller HIV-infeksjon?"
         '
         'Label114
         '
         Me.Label114.AutoSize = True
-        Me.Label114.Location = New System.Drawing.Point(76, 1121)
+        Me.Label114.Location = New System.Drawing.Point(101, 1380)
+        Me.Label114.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label114.Name = "Label114"
-        Me.Label114.Size = New System.Drawing.Size(230, 13)
+        Me.Label114.Size = New System.Drawing.Size(306, 17)
         Me.Label114.TabIndex = 546
         Me.Label114.Text = "Hatt hepatitt (gulsott), HIV-infeksjon eller AIDS?"
         '
         'Label113
         '
         Me.Label113.AutoSize = True
-        Me.Label113.Location = New System.Drawing.Point(76, 1095)
+        Me.Label113.Location = New System.Drawing.Point(101, 1348)
+        Me.Label113.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label113.Name = "Label113"
-        Me.Label113.Size = New System.Drawing.Size(113, 13)
+        Me.Label113.Size = New System.Drawing.Size(151, 17)
         Me.Label113.TabIndex = 545
         Me.Label113.Text = "Hatt tropesykdommer?"
         '
         'Label112
         '
         Me.Label112.AutoSize = True
-        Me.Label112.Location = New System.Drawing.Point(76, 1069)
+        Me.Label112.Location = New System.Drawing.Point(101, 1316)
+        Me.Label112.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(69, 13)
+        Me.Label112.Size = New System.Drawing.Size(92, 17)
         Me.Label112.TabIndex = 544
         Me.Label112.Text = "Hatt malaria?"
         '
         'Label111
         '
         Me.Label111.AutoSize = True
-        Me.Label111.Location = New System.Drawing.Point(76, 1047)
+        Me.Label111.Location = New System.Drawing.Point(101, 1289)
+        Me.Label111.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(172, 13)
+        Me.Label111.Size = New System.Drawing.Size(234, 17)
         Me.Label111.TabIndex = 543
         Me.Label111.Text = "Hatt allergi mot mat eller medisiner?"
         '
         'Label110
         '
         Me.Label110.AutoSize = True
-        Me.Label110.Location = New System.Drawing.Point(76, 1024)
+        Me.Label110.Location = New System.Drawing.Point(101, 1260)
+        Me.Label110.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(119, 13)
+        Me.Label110.Size = New System.Drawing.Size(158, 17)
         Me.Label110.TabIndex = 542
         Me.Label110.Text = "Hatt blødningstendens?"
         '
         'Label109
         '
         Me.Label109.AutoSize = True
-        Me.Label109.Location = New System.Drawing.Point(76, 1002)
+        Me.Label109.Location = New System.Drawing.Point(101, 1233)
+        Me.Label109.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(57, 13)
+        Me.Label109.Size = New System.Drawing.Size(74, 17)
         Me.Label109.TabIndex = 541
         Me.Label109.Text = "Hatt kreft?"
         '
         'Label108
         '
         Me.Label108.AutoSize = True
-        Me.Label108.Location = New System.Drawing.Point(76, 977)
+        Me.Label108.Location = New System.Drawing.Point(101, 1202)
+        Me.Label108.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label108.Name = "Label108"
-        Me.Label108.Size = New System.Drawing.Size(184, 13)
+        Me.Label108.Size = New System.Drawing.Size(248, 17)
         Me.Label108.TabIndex = 540
         Me.Label108.Text = "Hatt hjerte-, lever, eller lungesykdom?"
         '
         'Label106
         '
         Me.Label106.AutoSize = True
-        Me.Label106.Location = New System.Drawing.Point(342, 954)
+        Me.Label106.Location = New System.Drawing.Point(456, 1174)
+        Me.Label106.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label106.Name = "Label106"
-        Me.Label106.Size = New System.Drawing.Size(23, 13)
+        Me.Label106.Size = New System.Drawing.Size(29, 17)
         Me.Label106.TabIndex = 539
         Me.Label106.Text = "Nei"
         '
         'Label107
         '
         Me.Label107.AutoSize = True
-        Me.Label107.Location = New System.Drawing.Point(318, 954)
+        Me.Label107.Location = New System.Drawing.Point(424, 1174)
+        Me.Label107.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(18, 13)
+        Me.Label107.Size = New System.Drawing.Size(23, 17)
         Me.Label107.TabIndex = 538
         Me.Label107.Text = "Ja"
         '
         'Label104
         '
         Me.Label104.AutoSize = True
-        Me.Label104.Location = New System.Drawing.Point(342, 891)
+        Me.Label104.Location = New System.Drawing.Point(456, 1097)
+        Me.Label104.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(23, 13)
+        Me.Label104.Size = New System.Drawing.Size(29, 17)
         Me.Label104.TabIndex = 537
         Me.Label104.Text = "Nei"
         '
         'Label105
         '
         Me.Label105.AutoSize = True
-        Me.Label105.Location = New System.Drawing.Point(318, 891)
+        Me.Label105.Location = New System.Drawing.Point(424, 1097)
+        Me.Label105.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(18, 13)
+        Me.Label105.Size = New System.Drawing.Size(23, 17)
         Me.Label105.TabIndex = 536
         Me.Label105.Text = "Ja"
         '
@@ -3569,216 +3826,240 @@ Partial Class Ansattside
         '
         Me.Label103.AutoSize = True
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(76, 954)
+        Me.Label103.Location = New System.Drawing.Point(101, 1174)
+        Me.Label103.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(223, 13)
+        Me.Label103.Size = New System.Drawing.Size(284, 17)
         Me.Label103.TabIndex = 535
         Me.Label103.Text = "Har du på noe tidspunkt gjennom livet"
         '
         'Label101
         '
         Me.Label101.AutoSize = True
-        Me.Label101.Location = New System.Drawing.Point(384, 1144)
+        Me.Label101.Location = New System.Drawing.Point(512, 1408)
+        Me.Label101.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(124, 13)
+        Me.Label101.Size = New System.Drawing.Size(167, 17)
         Me.Label101.TabIndex = 534
         Me.Label101.Text = "for legemiddelproduksjon"
         '
         'Label102
         '
         Me.Label102.AutoSize = True
-        Me.Label102.Location = New System.Drawing.Point(384, 1131)
+        Me.Label102.Location = New System.Drawing.Point(512, 1392)
+        Me.Label102.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(232, 13)
+        Me.Label102.Size = New System.Drawing.Size(311, 17)
         Me.Label102.TabIndex = 533
         Me.Label102.Text = "Jeg samtykker i at mitt plasma føres ut av Norge"
         '
         'Label99
         '
         Me.Label99.AutoSize = True
-        Me.Label99.Location = New System.Drawing.Point(384, 1109)
+        Me.Label99.Location = New System.Drawing.Point(512, 1365)
+        Me.Label99.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(54, 13)
+        Me.Label99.Size = New System.Drawing.Size(72, 17)
         Me.Label99.TabIndex = 532
         Me.Label99.Text = "måneder?"
         '
         'Label100
         '
         Me.Label100.AutoSize = True
-        Me.Label100.Location = New System.Drawing.Point(384, 1096)
+        Me.Label100.Location = New System.Drawing.Point(512, 1349)
+        Me.Label100.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(219, 13)
+        Me.Label100.Size = New System.Drawing.Size(293, 17)
         Me.Label100.TabIndex = 531
         Me.Label100.Text = "Har du deltatt i medikamentforsøk de siste 12"
         '
         'Label98
         '
         Me.Label98.AutoSize = True
-        Me.Label98.Location = New System.Drawing.Point(384, 1073)
+        Me.Label98.Location = New System.Drawing.Point(512, 1321)
+        Me.Label98.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(249, 13)
+        Me.Label98.Size = New System.Drawing.Size(335, 17)
         Me.Label98.TabIndex = 530
         Me.Label98.Text = "kan gi informasjon om aktuelle forskningsprosjekter."
         '
         'Label97
         '
         Me.Label97.AutoSize = True
-        Me.Label97.Location = New System.Drawing.Point(384, 1060)
+        Me.Label97.Location = New System.Drawing.Point(512, 1305)
+        Me.Label97.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(240, 13)
+        Me.Label97.Size = New System.Drawing.Size(322, 17)
         Me.Label97.TabIndex = 529
         Me.Label97.Text = "blodgiver enten du svarer ja eller nei. Blodbanken"
         '
         'Label79
         '
         Me.Label79.AutoSize = True
-        Me.Label79.Location = New System.Drawing.Point(384, 1047)
+        Me.Label79.Location = New System.Drawing.Point(512, 1289)
+        Me.Label79.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(228, 13)
+        Me.Label79.Size = New System.Drawing.Size(304, 17)
         Me.Label79.TabIndex = 528
         Me.Label79.Text = "brukes til forskning? Du er like velkommen som"
         '
         'Label80
         '
         Me.Label80.AutoSize = True
-        Me.Label80.Location = New System.Drawing.Point(384, 1034)
+        Me.Label80.Location = New System.Drawing.Point(512, 1273)
+        Me.Label80.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(241, 13)
+        Me.Label80.Size = New System.Drawing.Size(323, 17)
         Me.Label80.TabIndex = 527
         Me.Label80.Text = "Godtar du at anonumiserte prøver av ditt blod kan"
         '
         'Label81
         '
         Me.Label81.AutoSize = True
-        Me.Label81.Location = New System.Drawing.Point(384, 1008)
+        Me.Label81.Location = New System.Drawing.Point(512, 1241)
+        Me.Label81.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(221, 13)
+        Me.Label81.Size = New System.Drawing.Size(299, 17)
         Me.Label81.TabIndex = 526
         Me.Label81.Text = "Er du eller din mor født i Amerika sør for USA?"
         '
         'Label82
         '
         Me.Label82.AutoSize = True
-        Me.Label82.Location = New System.Drawing.Point(384, 989)
+        Me.Label82.Location = New System.Drawing.Point(512, 1217)
+        Me.Label82.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(94, 13)
+        Me.Label82.Size = New System.Drawing.Size(127, 17)
         Me.Label82.TabIndex = 525
         Me.Label82.Text = "fem år til sammen?"
         '
         'Label83
         '
         Me.Label83.AutoSize = True
-        Me.Label83.Location = New System.Drawing.Point(384, 976)
+        Me.Label83.Location = New System.Drawing.Point(512, 1201)
+        Me.Label83.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(167, 13)
+        Me.Label83.Size = New System.Drawing.Size(224, 17)
         Me.Label83.TabIndex = 524
         Me.Label83.Text = "Har du oppholdt deg i Afrika i mer "
         '
         'Label84
         '
         Me.Label84.AutoSize = True
-        Me.Label84.Location = New System.Drawing.Point(384, 954)
+        Me.Label84.Location = New System.Drawing.Point(512, 1174)
+        Me.Label84.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(237, 13)
+        Me.Label84.Size = New System.Drawing.Size(323, 17)
         Me.Label84.TabIndex = 523
         Me.Label84.Text = "seks måneder i områder der malaria forekommer?"
         '
         'Label85
         '
         Me.Label85.AutoSize = True
-        Me.Label85.Location = New System.Drawing.Point(384, 941)
+        Me.Label85.Location = New System.Drawing.Point(512, 1158)
+        Me.Label85.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(229, 13)
+        Me.Label85.Size = New System.Drawing.Size(307, 17)
         Me.Label85.TabIndex = 522
         Me.Label85.Text = "Har du oppholdt deg sammenhengende i minst "
         '
         'Label86
         '
         Me.Label86.AutoSize = True
-        Me.Label86.Location = New System.Drawing.Point(384, 919)
+        Me.Label86.Location = New System.Drawing.Point(512, 1131)
+        Me.Label86.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(104, 13)
+        Me.Label86.Size = New System.Drawing.Size(141, 17)
         Me.Label86.TabIndex = 521
         Me.Label86.Text = "malaria forekommer?"
         '
         'Label87
         '
         Me.Label87.AutoSize = True
-        Me.Label87.Location = New System.Drawing.Point(384, 906)
+        Me.Label87.Location = New System.Drawing.Point(512, 1115)
+        Me.Label87.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(240, 13)
+        Me.Label87.Size = New System.Drawing.Size(325, 17)
         Me.Label87.TabIndex = 520
         Me.Label87.Text = "Har du i løpet av de tre siste år vært i områder der"
         '
         'Label88
         '
         Me.Label88.AutoSize = True
-        Me.Label88.Location = New System.Drawing.Point(384, 881)
+        Me.Label88.Location = New System.Drawing.Point(512, 1084)
+        Me.Label88.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(215, 13)
+        Me.Label88.Size = New System.Drawing.Size(290, 17)
         Me.Label88.TabIndex = 519
         Me.Label88.Text = "til sammen i perioden mellom 1980 og 1996?"
         '
         'Label89
         '
         Me.Label89.AutoSize = True
-        Me.Label89.Location = New System.Drawing.Point(384, 868)
+        Me.Label89.Location = New System.Drawing.Point(512, 1068)
+        Me.Label89.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(238, 13)
+        Me.Label89.Size = New System.Drawing.Size(322, 17)
         Me.Label89.TabIndex = 518
         Me.Label89.Text = "Har du oppholdt deg i Storbritania i mer enn ett år"
         '
         'Label90
         '
         Me.Label90.AutoSize = True
-        Me.Label90.Location = New System.Drawing.Point(384, 848)
+        Me.Label90.Location = New System.Drawing.Point(512, 1044)
+        Me.Label90.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(129, 13)
+        Me.Label90.Size = New System.Drawing.Size(172, 17)
         Me.Label90.TabIndex = 517
         Me.Label90.Text = "sykdom eller variant CJD?"
         '
         'Label91
         '
         Me.Label91.AutoSize = True
-        Me.Label91.Location = New System.Drawing.Point(384, 832)
+        Me.Label91.Location = New System.Drawing.Point(512, 1024)
+        Me.Label91.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(234, 13)
+        Me.Label91.Size = New System.Drawing.Size(316, 17)
         Me.Label91.TabIndex = 516
         Me.Label91.Text = "Har du eller noen i familien hatt Creutzfeldt-jakob"
         '
         'Label92
         '
         Me.Label92.AutoSize = True
-        Me.Label92.Location = New System.Drawing.Point(652, 771)
+        Me.Label92.Location = New System.Drawing.Point(869, 949)
+        Me.Label92.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label92.Name = "Label92"
-        Me.Label92.Size = New System.Drawing.Size(23, 13)
+        Me.Label92.Size = New System.Drawing.Size(29, 17)
         Me.Label92.TabIndex = 515
         Me.Label92.Text = "Nei"
         '
         'Label93
         '
         Me.Label93.AutoSize = True
-        Me.Label93.Location = New System.Drawing.Point(632, 771)
+        Me.Label93.Location = New System.Drawing.Point(843, 949)
+        Me.Label93.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(18, 13)
+        Me.Label93.Size = New System.Drawing.Size(23, 17)
         Me.Label93.TabIndex = 514
         Me.Label93.Text = "Ja"
         '
         'Label94
         '
         Me.Label94.AutoSize = True
-        Me.Label94.Location = New System.Drawing.Point(384, 809)
+        Me.Label94.Location = New System.Drawing.Point(512, 996)
+        Me.Label94.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(144, 13)
+        Me.Label94.Size = New System.Drawing.Size(194, 17)
         Me.Label94.TabIndex = 513
         Me.Label94.Text = "ganger de siste 12 måneder?"
         '
         'Label95
         '
         Me.Label95.AutoSize = True
-        Me.Label95.Location = New System.Drawing.Point(384, 796)
+        Me.Label95.Location = New System.Drawing.Point(512, 980)
+        Me.Label95.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(173, 13)
+        Me.Label95.Size = New System.Drawing.Size(232, 17)
         Me.Label95.TabIndex = 512
         Me.Label95.Text = "Har du brukt narkotika en eller flere"
         '
@@ -3786,18 +4067,20 @@ Partial Class Ansattside
         '
         Me.Label96.AutoSize = True
         Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label96.Location = New System.Drawing.Point(384, 771)
+        Me.Label96.Location = New System.Drawing.Point(512, 949)
+        Me.Label96.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(77, 13)
+        Me.Label96.Size = New System.Drawing.Size(98, 17)
         Me.Label96.TabIndex = 511
         Me.Label96.Text = "Besvar også"
         '
         'Label78
         '
         Me.Label78.AutoSize = True
-        Me.Label78.Location = New System.Drawing.Point(76, 914)
+        Me.Label78.Location = New System.Drawing.Point(101, 1125)
+        Me.Label78.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(237, 13)
+        Me.Label78.Size = New System.Drawing.Size(319, 17)
         Me.Label78.TabIndex = 510
         Me.Label78.Text = "Hatt sjeldne eller alvorlige infeksjonssukdommer?"
         '
@@ -3805,90 +4088,100 @@ Partial Class Ansattside
         '
         Me.Label77.AutoSize = True
         Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(76, 891)
+        Me.Label77.Location = New System.Drawing.Point(101, 1097)
+        Me.Label77.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(180, 13)
+        Me.Label77.Size = New System.Drawing.Size(230, 17)
         Me.Label77.TabIndex = 509
         Me.Label77.Text = "Har du i løpet av de siste to år"
         '
         'Label76
         '
         Me.Label76.AutoSize = True
-        Me.Label76.Location = New System.Drawing.Point(384, 735)
+        Me.Label76.Location = New System.Drawing.Point(512, 905)
+        Me.Label76.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(228, 13)
+        Me.Label76.Size = New System.Drawing.Size(303, 17)
         Me.Label76.TabIndex = 508
         Me.Label76.Text = "Har du hatt seksuell kontakt med andre menn?"
         '
         'Label74
         '
         Me.Label74.AutoSize = True
-        Me.Label74.Location = New System.Drawing.Point(652, 713)
+        Me.Label74.Location = New System.Drawing.Point(869, 878)
+        Me.Label74.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(23, 13)
+        Me.Label74.Size = New System.Drawing.Size(29, 17)
         Me.Label74.TabIndex = 507
         Me.Label74.Text = "Nei"
         '
         'Label75
         '
         Me.Label75.AutoSize = True
-        Me.Label75.Location = New System.Drawing.Point(628, 713)
+        Me.Label75.Location = New System.Drawing.Point(837, 878)
+        Me.Label75.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(18, 13)
+        Me.Label75.Size = New System.Drawing.Size(23, 17)
         Me.Label75.TabIndex = 506
         Me.Label75.Text = "Ja"
         '
         'Label72
         '
         Me.Label72.AutoSize = True
-        Me.Label72.Location = New System.Drawing.Point(652, 535)
+        Me.Label72.Location = New System.Drawing.Point(869, 658)
+        Me.Label72.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(23, 13)
+        Me.Label72.Size = New System.Drawing.Size(29, 17)
         Me.Label72.TabIndex = 505
         Me.Label72.Text = "Nei"
         '
         'Label73
         '
         Me.Label73.AutoSize = True
-        Me.Label73.Location = New System.Drawing.Point(628, 535)
+        Me.Label73.Location = New System.Drawing.Point(837, 658)
+        Me.Label73.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(18, 13)
+        Me.Label73.Size = New System.Drawing.Size(23, 17)
         Me.Label73.TabIndex = 504
         Me.Label73.Text = "Ja"
         '
         'Label70
         '
         Me.Label70.AutoSize = True
-        Me.Label70.Location = New System.Drawing.Point(342, 564)
+        Me.Label70.Location = New System.Drawing.Point(456, 694)
+        Me.Label70.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(23, 13)
+        Me.Label70.Size = New System.Drawing.Size(29, 17)
         Me.Label70.TabIndex = 503
         Me.Label70.Text = "Nei"
         '
         'Label71
         '
         Me.Label71.AutoSize = True
-        Me.Label71.Location = New System.Drawing.Point(318, 564)
+        Me.Label71.Location = New System.Drawing.Point(424, 694)
+        Me.Label71.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(18, 13)
+        Me.Label71.Size = New System.Drawing.Size(23, 17)
         Me.Label71.TabIndex = 502
         Me.Label71.Text = "Ja"
         '
         'Label68
         '
         Me.Label68.AutoSize = True
-        Me.Label68.Location = New System.Drawing.Point(342, 401)
+        Me.Label68.Location = New System.Drawing.Point(456, 494)
+        Me.Label68.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(23, 13)
+        Me.Label68.Size = New System.Drawing.Size(29, 17)
         Me.Label68.TabIndex = 501
         Me.Label68.Text = "Nei"
         '
         'Label69
         '
         Me.Label69.AutoSize = True
-        Me.Label69.Location = New System.Drawing.Point(318, 401)
+        Me.Label69.Location = New System.Drawing.Point(424, 494)
+        Me.Label69.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(18, 13)
+        Me.Label69.Size = New System.Drawing.Size(23, 17)
         Me.Label69.TabIndex = 500
         Me.Label69.Text = "Ja"
         '
@@ -3896,81 +4189,90 @@ Partial Class Ansattside
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(384, 713)
+        Me.Label67.Location = New System.Drawing.Point(512, 878)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(111, 13)
+        Me.Label67.Size = New System.Drawing.Size(141, 17)
         Me.Label67.TabIndex = 499
         Me.Label67.Text = "Besvares av menn"
         '
         'Label64
         '
         Me.Label64.AutoSize = True
-        Me.Label64.Location = New System.Drawing.Point(384, 680)
+        Me.Label64.Location = New System.Drawing.Point(512, 837)
+        Me.Label64.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(193, 13)
+        Me.Label64.Size = New System.Drawing.Size(256, 17)
         Me.Label64.TabIndex = 498
         Me.Label64.Text = "hatt seksuell kontakt med andre menn?"
         '
         'Label65
         '
         Me.Label65.AutoSize = True
-        Me.Label65.Location = New System.Drawing.Point(384, 667)
+        Me.Label65.Location = New System.Drawing.Point(512, 821)
+        Me.Label65.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(224, 13)
+        Me.Label65.Size = New System.Drawing.Size(297, 17)
         Me.Label65.TabIndex = 497
         Me.Label65.Text = "seksuell kontakt med en mann som du vet har"
         '
         'Label66
         '
         Me.Label66.AutoSize = True
-        Me.Label66.Location = New System.Drawing.Point(384, 654)
+        Me.Label66.Location = New System.Drawing.Point(512, 805)
+        Me.Label66.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(214, 13)
+        Me.Label66.Size = New System.Drawing.Size(286, 17)
         Me.Label66.TabIndex = 496
         Me.Label66.Text = "Har du i løpet av de siste seks måneder hatt"
         '
         'Label62
         '
         Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(384, 619)
+        Me.Label62.Location = New System.Drawing.Point(512, 762)
+        Me.Label62.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(179, 13)
+        Me.Label62.Size = New System.Drawing.Size(241, 17)
         Me.Label62.TabIndex = 495
         Me.Label62.Text = "Har du gitt blod tidligere, har du vært"
         '
         'Label63
         '
         Me.Label63.AutoSize = True
-        Me.Label63.Location = New System.Drawing.Point(384, 632)
+        Me.Label63.Location = New System.Drawing.Point(512, 778)
+        Me.Label63.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(159, 13)
+        Me.Label63.Size = New System.Drawing.Size(214, 17)
         Me.Label63.TabIndex = 494
         Me.Label63.Text = "gravid siden forrige blodgivning?"
         '
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(384, 583)
+        Me.Label60.Location = New System.Drawing.Point(512, 718)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(201, 13)
+        Me.Label60.Size = New System.Drawing.Size(267, 17)
         Me.Label60.TabIndex = 493
         Me.Label60.Text = "Har du vært gravid i løpet av de siste tolv"
         '
         'Label61
         '
         Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(384, 596)
+        Me.Label61.Location = New System.Drawing.Point(512, 734)
+        Me.Label61.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(143, 13)
+        Me.Label61.Size = New System.Drawing.Size(194, 17)
         Me.Label61.TabIndex = 492
         Me.Label61.Text = "måneder, eller ammer du nå?"
         '
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(384, 561)
+        Me.Label59.Location = New System.Drawing.Point(512, 690)
+        Me.Label59.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(70, 13)
+        Me.Label59.Size = New System.Drawing.Size(93, 17)
         Me.Label59.TabIndex = 491
         Me.Label59.Text = "Er du gravid?"
         '
@@ -3978,135 +4280,150 @@ Partial Class Ansattside
         '
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(384, 535)
+        Me.Label58.Location = New System.Drawing.Point(512, 658)
+        Me.Label58.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(123, 13)
+        Me.Label58.Size = New System.Drawing.Size(155, 17)
         Me.Label58.TabIndex = 490
         Me.Label58.Text = "Besvares av kvinner"
         '
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(76, 848)
+        Me.Label57.Location = New System.Drawing.Point(101, 1044)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(133, 13)
+        Me.Label57.Size = New System.Drawing.Size(179, 17)
         Me.Label57.TabIndex = 489
         Me.Label57.Text = "Vært utenfor Vest-Europa?"
         '
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(76, 825)
+        Me.Label56.Location = New System.Drawing.Point(101, 1015)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(119, 13)
+        Me.Label56.Size = New System.Drawing.Size(159, 17)
         Me.Label56.TabIndex = 488
         Me.Label56.Text = "Hatt ny seksualpartner?"
         '
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(76, 787)
+        Me.Label54.Location = New System.Drawing.Point(101, 969)
+        Me.Label54.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(220, 13)
+        Me.Label54.Size = New System.Drawing.Size(293, 17)
         Me.Label54.TabIndex = 487
         Me.Label54.Text = "Hatt seksuell kontakt med en person som har"
         '
         'Label55
         '
         Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(76, 800)
+        Me.Label55.Location = New System.Drawing.Point(101, 985)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(215, 13)
+        Me.Label55.Size = New System.Drawing.Size(290, 17)
         Me.Label55.TabIndex = 486
         Me.Label55.Text = "fått blod eller blodprodukter utenfor Norden?"
         '
         'Label53
         '
         Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(76, 764)
+        Me.Label53.Location = New System.Drawing.Point(101, 940)
+        Me.Label53.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(191, 13)
+        Me.Label53.Size = New System.Drawing.Size(256, 17)
         Me.Label53.TabIndex = 485
         Me.Label53.Text = "Hatt sekspartner som har vært i Afrika?"
         '
         'Label51
         '
         Me.Label51.AutoSize = True
-        Me.Label51.Location = New System.Drawing.Point(76, 729)
+        Me.Label51.Location = New System.Drawing.Point(101, 897)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(210, 13)
+        Me.Label51.Size = New System.Drawing.Size(283, 17)
         Me.Label51.TabIndex = 484
         Me.Label51.Text = "Hatt seksualpartner som har bodd mer enn "
         '
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(76, 742)
+        Me.Label52.Location = New System.Drawing.Point(101, 913)
+        Me.Label52.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(224, 13)
+        Me.Label52.Size = New System.Drawing.Size(302, 17)
         Me.Label52.TabIndex = 483
         Me.Label52.Text = "ett år sammenhengende utenfor Vest-Europa?"
         '
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Location = New System.Drawing.Point(76, 706)
+        Me.Label50.Location = New System.Drawing.Point(101, 869)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(82, 13)
+        Me.Label50.Size = New System.Drawing.Size(108, 17)
         Me.Label50.TabIndex = 482
         Me.Label50.Text = "Blitt bitt av flått?"
         '
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(76, 612)
+        Me.Label43.Location = New System.Drawing.Point(101, 753)
+        Me.Label43.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(214, 13)
+        Me.Label43.Size = New System.Drawing.Size(286, 17)
         Me.Label43.TabIndex = 481
         Me.Label43.Text = "Stukket eller skåret deg på gjenstander som"
         '
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(76, 625)
+        Me.Label44.Location = New System.Drawing.Point(101, 769)
+        Me.Label44.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(217, 13)
+        Me.Label44.Size = New System.Drawing.Size(292, 17)
         Me.Label44.TabIndex = 480
         Me.Label44.Text = "var forurenset med blod eller kroppsvæsker?"
         '
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(76, 648)
+        Me.Label45.Location = New System.Drawing.Point(101, 798)
+        Me.Label45.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(194, 13)
+        Me.Label45.Size = New System.Drawing.Size(261, 17)
         Me.Label45.TabIndex = 479
         Me.Label45.Text = "Bodd i samme husstand som en person "
         '
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(76, 661)
+        Me.Label46.Location = New System.Drawing.Point(101, 814)
+        Me.Label46.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(98, 13)
+        Me.Label46.Size = New System.Drawing.Size(131, 17)
         Me.Label46.TabIndex = 478
         Me.Label46.Text = "som har hepatitt B?"
         '
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(76, 683)
+        Me.Label47.Location = New System.Drawing.Point(101, 841)
+        Me.Label47.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(209, 13)
+        Me.Label47.Size = New System.Drawing.Size(282, 17)
         Me.Label47.TabIndex = 477
         Me.Label47.Text = "Fått blodsøl på slimhinner eller skadet hud?"
         '
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(76, 590)
+        Me.Label48.Location = New System.Drawing.Point(101, 726)
+        Me.Label48.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(88, 13)
+        Me.Label48.Size = New System.Drawing.Size(115, 17)
         Me.Label48.TabIndex = 476
         Me.Label48.Text = "Fått akupunktur?"
         '
@@ -4114,162 +4431,180 @@ Partial Class Ansattside
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(76, 564)
+        Me.Label49.Location = New System.Drawing.Point(101, 694)
+        Me.Label49.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(232, 13)
+        Me.Label49.Size = New System.Drawing.Size(297, 17)
         Me.Label49.TabIndex = 475
         Me.Label49.Text = "Har du i løpet av de siste seks måneder"
         '
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(384, 468)
+        Me.Label42.Location = New System.Drawing.Point(512, 576)
+        Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(224, 13)
+        Me.Label42.Size = New System.Drawing.Size(302, 17)
         Me.Label42.TabIndex = 474
         Me.Label42.Text = "Blitt tatovert, fått piercing eller tatt hull i ørene?"
         '
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(384, 446)
+        Me.Label41.Location = New System.Drawing.Point(512, 549)
+        Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(104, 13)
+        Me.Label41.Size = New System.Drawing.Size(142, 17)
         Me.Label41.TabIndex = 473
         Me.Label41.Text = "tidligere prostituerte?"
         '
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(381, 433)
+        Me.Label40.Location = New System.Drawing.Point(508, 533)
+        Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(207, 13)
+        Me.Label40.Size = New System.Drawing.Size(277, 17)
         Me.Label40.TabIndex = 472
         Me.Label40.Text = "Hatt seksuell kontakt med prostituerte eller"
         '
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(381, 414)
+        Me.Label39.Location = New System.Drawing.Point(508, 510)
+        Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(102, 13)
+        Me.Label39.Size = New System.Drawing.Size(140, 17)
         Me.Label39.TabIndex = 471
         Me.Label39.Text = "midler som sprøyter?"
         '
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(381, 401)
+        Me.Label38.Location = New System.Drawing.Point(508, 494)
+        Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(207, 13)
+        Me.Label38.Size = New System.Drawing.Size(281, 17)
         Me.Label38.TabIndex = 470
         Me.Label38.Text = "eller har brukt dopingmidler eller narkotiske"
         '
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(381, 388)
+        Me.Label37.Location = New System.Drawing.Point(508, 478)
+        Me.Label37.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(235, 13)
+        Me.Label37.Size = New System.Drawing.Size(313, 17)
         Me.Label37.TabIndex = 469
         Me.Label37.Text = "Hatt seksuell kontakt med en person som bruker"
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(381, 366)
+        Me.Label36.Location = New System.Drawing.Point(508, 450)
+        Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(147, 13)
+        Me.Label36.Size = New System.Drawing.Size(196, 17)
         Me.Label36.TabIndex = 468
         Me.Label36.Text = "for en av disse sykdommene?"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(381, 353)
+        Me.Label35.Location = New System.Drawing.Point(508, 434)
+        Me.Label35.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(213, 13)
+        Me.Label35.Size = New System.Drawing.Size(288, 17)
         Me.Label35.TabIndex = 467
         Me.Label35.Text = "eller med en person som har hatt positiv test"
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(381, 340)
+        Me.Label34.Location = New System.Drawing.Point(508, 418)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(192, 13)
+        Me.Label34.Size = New System.Drawing.Size(258, 17)
         Me.Label34.TabIndex = 466
         Me.Label34.Text = "infeksjon eller hepatitt B eller hepatitt C,"
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(381, 327)
+        Me.Label33.Location = New System.Drawing.Point(508, 402)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(227, 13)
+        Me.Label33.Size = New System.Drawing.Size(300, 17)
         Me.Label33.TabIndex = 465
         Me.Label33.Text = "Hatt seksuell kontakt med en person med HIV-"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(381, 302)
+        Me.Label32.Location = New System.Drawing.Point(508, 372)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(80, 13)
+        Me.Label32.Size = New System.Drawing.Size(105, 17)
         Me.Label32.TabIndex = 464
         Me.Label32.Text = "kjønnssykdom?"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(381, 289)
+        Me.Label31.Location = New System.Drawing.Point(508, 356)
+        Me.Label31.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(210, 13)
+        Me.Label31.Size = New System.Drawing.Size(281, 17)
         Me.Label31.TabIndex = 463
         Me.Label31.Text = "Hatt kjønnssykdom, eller fått behandling for"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(381, 266)
+        Me.Label30.Location = New System.Drawing.Point(508, 327)
+        Me.Label30.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(149, 13)
+        Me.Label30.Size = New System.Drawing.Size(201, 17)
         Me.Label30.TabIndex = 462
         Me.Label30.Text = "Fått behandling med sprøyter?"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(652, 214)
+        Me.Label28.Location = New System.Drawing.Point(869, 263)
+        Me.Label28.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(23, 13)
+        Me.Label28.Size = New System.Drawing.Size(29, 17)
         Me.Label28.TabIndex = 461
         Me.Label28.Text = "Nei"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(628, 214)
+        Me.Label29.Location = New System.Drawing.Point(837, 263)
+        Me.Label29.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(18, 13)
+        Me.Label29.Size = New System.Drawing.Size(23, 17)
         Me.Label29.TabIndex = 460
         Me.Label29.Text = "Ja"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(381, 243)
+        Me.Label27.Location = New System.Drawing.Point(508, 299)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(164, 13)
+        Me.Label27.Size = New System.Drawing.Size(219, 17)
         Me.Label27.TabIndex = 459
         Me.Label27.Text = "fått behandling for noen sykdom?"
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(381, 230)
+        Me.Label26.Location = New System.Drawing.Point(508, 283)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(210, 13)
+        Me.Label26.Size = New System.Drawing.Size(284, 17)
         Me.Label26.TabIndex = 458
         Me.Label26.Text = "Vært til undersøkelse eller på sykehus, eller"
         '
@@ -4277,54 +4612,60 @@ Partial Class Ansattside
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(381, 214)
+        Me.Label25.Location = New System.Drawing.Point(508, 263)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(232, 13)
+        Me.Label25.Size = New System.Drawing.Size(297, 17)
         Me.Label25.TabIndex = 457
         Me.Label25.Text = "Har du i løpet av de siste seks måneder"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(76, 449)
+        Me.Label24.Location = New System.Drawing.Point(101, 553)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(125, 13)
+        Me.Label24.Size = New System.Drawing.Size(168, 17)
         Me.Label24.TabIndex = 456
         Me.Label24.Text = "Vært syk eller hatt feber?"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(76, 471)
+        Me.Label23.Location = New System.Drawing.Point(101, 580)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(90, 13)
+        Me.Label23.Size = New System.Drawing.Size(119, 17)
         Me.Label23.TabIndex = 455
         Me.Label23.Text = "Hatt løs avføring?"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(76, 494)
+        Me.Label22.Location = New System.Drawing.Point(101, 608)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(71, 13)
+        Me.Label22.Size = New System.Drawing.Size(92, 17)
         Me.Label22.TabIndex = 454
         Me.Label22.Text = "Fått vaksine?"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(76, 517)
+        Me.Label21.Location = New System.Drawing.Point(101, 636)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(171, 13)
+        Me.Label21.Size = New System.Drawing.Size(231, 17)
         Me.Label21.TabIndex = 453
         Me.Label21.Text = "Vært hos tannlege eller tannpleier?"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(76, 427)
+        Me.Label19.Location = New System.Drawing.Point(101, 526)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(85, 13)
+        Me.Label19.Size = New System.Drawing.Size(114, 17)
         Me.Label19.TabIndex = 452
         Me.Label19.Text = "Brukt medisiner?"
         '
@@ -4332,45 +4673,50 @@ Partial Class Ansattside
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(76, 401)
+        Me.Label18.Location = New System.Drawing.Point(101, 494)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(201, 13)
+        Me.Label18.Size = New System.Drawing.Size(257, 17)
         Me.Label18.TabIndex = 451
         Me.Label18.Text = "Har du i løpet av de siste fire uker"
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(76, 316)
+        Me.Label17.Location = New System.Drawing.Point(101, 389)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(124, 13)
+        Me.Label17.Size = New System.Drawing.Size(167, 17)
         Me.Label17.TabIndex = 450
         Me.Label17.Text = "Veier du 50 kg eller mer?"
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(76, 289)
+        Me.Label16.Location = New System.Drawing.Point(101, 356)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(210, 13)
+        Me.Label16.Size = New System.Drawing.Size(284, 17)
         Me.Label16.TabIndex = 449
         Me.Label16.Text = "vært frisk i perioden fra forrige blodgivning?"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(76, 276)
+        Me.Label15.Location = New System.Drawing.Point(101, 340)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(176, 13)
+        Me.Label15.Size = New System.Drawing.Size(237, 17)
         Me.Label15.TabIndex = 448
         Me.Label15.Text = "Hvis du har gitt blod tidligere, har du"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(76, 252)
+        Me.Label20.Location = New System.Drawing.Point(101, 310)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(109, 13)
+        Me.Label20.Size = New System.Drawing.Size(146, 17)
         Me.Label20.TabIndex = 447
         Me.Label20.Text = "Føler du deg frisk nå?"
         '
@@ -4378,36 +4724,40 @@ Partial Class Ansattside
         '
         Me.Label126.AutoSize = True
         Me.Label126.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label126.Location = New System.Drawing.Point(76, 214)
+        Me.Label126.Location = New System.Drawing.Point(101, 263)
+        Me.Label126.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label126.Name = "Label126"
-        Me.Label126.Size = New System.Drawing.Size(101, 13)
+        Me.Label126.Size = New System.Drawing.Size(129, 17)
         Me.Label126.TabIndex = 446
         Me.Label126.Text = "Vennligst besvar"
         '
         'Label128
         '
         Me.Label128.AutoSize = True
-        Me.Label128.Location = New System.Drawing.Point(342, 214)
+        Me.Label128.Location = New System.Drawing.Point(456, 263)
+        Me.Label128.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label128.Name = "Label128"
-        Me.Label128.Size = New System.Drawing.Size(23, 13)
+        Me.Label128.Size = New System.Drawing.Size(29, 17)
         Me.Label128.TabIndex = 445
         Me.Label128.Text = "Nei"
         '
         'Label131
         '
         Me.Label131.AutoSize = True
-        Me.Label131.Location = New System.Drawing.Point(322, 214)
+        Me.Label131.Location = New System.Drawing.Point(429, 263)
+        Me.Label131.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label131.Name = "Label131"
-        Me.Label131.Size = New System.Drawing.Size(18, 13)
+        Me.Label131.Size = New System.Drawing.Size(23, 17)
         Me.Label131.TabIndex = 444
         Me.Label131.Text = "Ja"
         '
         'Label132
         '
         Me.Label132.AutoSize = True
-        Me.Label132.Location = New System.Drawing.Point(76, 230)
+        Me.Label132.Location = New System.Drawing.Point(101, 283)
+        Me.Label132.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label132.Name = "Label132"
-        Me.Label132.Size = New System.Drawing.Size(193, 13)
+        Me.Label132.Size = New System.Drawing.Size(259, 17)
         Me.Label132.TabIndex = 443
         Me.Label132.Text = "Har du fått informasjon om blodgivning?"
         '
@@ -4415,29 +4765,31 @@ Partial Class Ansattside
         '
         Me.Label134.AutoSize = True
         Me.Label134.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label134.Location = New System.Drawing.Point(224, 18)
+        Me.Label134.Location = New System.Drawing.Point(299, 22)
+        Me.Label134.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label134.Name = "Label134"
-        Me.Label134.Size = New System.Drawing.Size(346, 29)
+        Me.Label134.Size = New System.Drawing.Size(414, 36)
         Me.Label134.TabIndex = 441
         Me.Label134.Text = "Spørreskjema for blodgivere"
         '
         'btnLogUt
         '
-        Me.btnLogUt.Location = New System.Drawing.Point(749, 5)
+        Me.btnLogUt.Location = New System.Drawing.Point(999, 6)
+        Me.btnLogUt.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnLogUt.Name = "btnLogUt"
-        Me.btnLogUt.Size = New System.Drawing.Size(75, 23)
+        Me.btnLogUt.Size = New System.Drawing.Size(100, 28)
         Me.btnLogUt.TabIndex = 16
         Me.btnLogUt.Text = "Logg ut"
         Me.btnLogUt.UseVisualStyleBackColor = True
         '
         'Ansattside
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(842, 589)
+        Me.ClientSize = New System.Drawing.Size(1123, 725)
         Me.Controls.Add(Me.btnLogUt)
         Me.Controls.Add(Me.TabControl1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Ansattside"
         Me.Text = "Ansattside"
         Me.Statistikk.ResumeLayout(False)

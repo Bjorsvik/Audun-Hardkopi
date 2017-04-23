@@ -698,4 +698,8 @@ Public Class Ansattside
         txtboxTilgjengelig.Text = teller.ToString
 
     End Sub
+
+    Private Sub Innkalling_Click(sender As Object, e As EventArgs) Handles Innkalling.Click
+        'test
+    End Sub
 End Class
